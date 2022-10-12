@@ -1,0 +1,30 @@
+.word-wrapper {
+	margin: 5px;
+	line-height: 20px;
+}
+
+.answer {
+	display: inline-block;
+	margin: 0 10px;
+
+	&.hidden {
+		color: pink;
+	}
+
+	&.show {
+		color: purple;
+	}
+}
+
+.meaning {
+	display: inline-block;
+	margin: 0 10px;
+
+	&.hidden {
+		color: pink;
+	}
+
+	&.show {
+		color: purple;
+	}
+}

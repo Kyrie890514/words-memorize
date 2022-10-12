@@ -1,0 +1,29 @@
+.menu {
+	border: 1px solid #EBEEF5;
+	background-color: #FFF;
+	border-radius: 4px 4px 0 0;
+	padding: 5px 10px;
+	position: relative;
+}
+
+.menu-wrapper {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+
+	.title {
+		>span:nth-child(2) {
+			margin-left: 8px;
+		}
+	}
+
+	.toggle {
+		>span {
+			margin-left: 8px;
+		}
+
+		.is-toggle {
+			color: pink;
+		}
+	}
+}

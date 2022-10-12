@@ -1,0 +1,22 @@
+.content {
+	position: absolute;
+	display: flex;
+	flex-flow: column nowrap;
+	background-color: white;
+	border: 1px solid #EBEEF5;
+	border-left: 0;
+	top: 100%;
+	left: 0;
+	padding: 5px 10px;
+	height: calc(100vh - 54px);
+	box-sizing: border-box;
+	overflow: auto;
+}
+
+.list {
+	font-size: 24px;
+}
+
+.group {
+	margin-left: 10px;
+}
