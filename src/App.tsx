@@ -1,8 +1,8 @@
 import { defineComponent } from 'vue'
-import { RouterView } from 'vue-router'
+import WordsMemorize from './views/WordsMemorize'
 
 export default defineComponent({
 	render() {
-		return <RouterView />
+		return <WordsMemorize />
 	}
 })
