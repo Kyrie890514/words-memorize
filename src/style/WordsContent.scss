@@ -4,11 +4,11 @@
 	flex-flow: column nowrap;
 	background-color: white;
 	border: 1px solid pink;
-	border-left: 0;
-	top: 100%;
-	left: 0;
+	top: 44px;
+	left: 10px;
 	padding: 5px 10px;
-	height: calc(100vh - 54px);
+	height: calc(100% - 54px);
+	border-radius: 0 0 0 4px;
 	box-sizing: border-box;
 	overflow: auto;
 }

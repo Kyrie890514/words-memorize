@@ -1,4 +1,4 @@
-import { defineComponent, ref, type PropType } from 'vue'
+import { defineComponent, ref, Teleport, type PropType } from 'vue'
 import type { Content } from '../type'
 import WordsContent from './WordsContent'
 import '../style/WordsMenu.scss'
@@ -69,7 +69,9 @@ export default defineComponent({
 						<span class={isShowAllMeaning && 'is-toggle'} onClick={changeIsShowAllMeaning}>M</span>
 					</div>
 				</div>
-				<WordsContent ref='wordsContent' content={content} onCurrentChange={changeCurrent} />
+				<Teleport to='#app'>
+					<WordsContent ref='wordsContent' content={content} onCurrentChange={changeCurrent} />
+				</Teleport>
 			</div>
 		)
 	}
