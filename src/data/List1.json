@@ -1,134 +1,114 @@
 {
-	"group1": [
+	"Group1": [
 		{
-			"left": "test1",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
+			"left": "a girl taken",
+			"middle": "aback",
+			"right": "",
+			"meaning": "吓"
 		},
 		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
+			"left": "Rats",
+			"middle": "abandon",
+			"right": "a sinking ship.",
+			"meaning": "逃离"
 		},
 		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
+			"left": "drink whih wild",
+			"middle": "abandon",
+			"right": "",
+			"meaning": "放纵"
 		},
 		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
+			"left": "Never",
+			"middle": "abase",
+			"right": "yourself!",
+			"meaning": "自卑"
 		},
 		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
+			"left": "feel",
+			"middle": "abashed",
+			"right": "in public",
+			"meaning": "羞愧"
 		},
 		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
+			"left": "wait for the flood to",
+			"middle": "abate",
+			"right": "",
+			"meaning": "退去"
 		},
 		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
+			"left": "its",
+			"middle": "abbreviated",
+			"right": "name",
+			"meaning": "缩写"
 		}
 	],
-	"group2": [
+	"Group2": [
 		{
-			"left": "test2",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
+			"left": "the",
+			"middle": "abdicated",
+			"right": "king",
+			"meaning": "退位"
 		},
 		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
+			"left": "",
+			"middle": "abduct",
+			"right": "a child",
+			"meaning": "绑架"
 		},
 		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
+			"left": "",
+			"middle": "aberrant",
+			"right": "reactions of youths",
+			"meaning": "异常的"
 		},
 		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
+			"left": "",
+			"middle": "abet",
+			"right": "a crime",
+			"meaning": "教唆"
 		},
 		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
+			"left": "stop in",
+			"middle": "abeyance",
+			"right": "",
+			"meaning": "中止"
 		},
 		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
+			"left": "",
+			"middle": "abhor",
+			"right": "careless attitude",
+			"meaning": "厌恶"
 		},
 		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
-		}
-	],
-	"group3": [
-		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
+			"left": "a world without",
+			"middle": "abhorrence",
+			"right": "",
+			"meaning": "憎恨"
 		},
 		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
+			"left": "cannot",
+			"middle": "abide",
+			"right": "the loud noise",
+			"meaning": "忍受"
 		},
 		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
+			"left": "",
+			"middle": "abide",
+			"right": "by the rules",
+			"meaning": "遵守"
 		},
 		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
+			"left": "the",
+			"middle": "abiding",
+			"right": "love",
+			"meaning": "持久的"
 		},
 		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
-		},
-		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
-		},
-		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
+			"left": "her",
+			"middle": "abject",
+			"right": "fate",
+			"meaning": "悲惨的"
 		}
 	]
 }

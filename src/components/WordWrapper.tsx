@@ -1,5 +1,5 @@
 import type { Word } from '@/type'
-import { defineComponent, ref, type PropType } from 'vue'
+import { defineComponent, watch, ref, type PropType } from 'vue'
 import '../style/WordWrapper.scss'
 
 export default defineComponent({
@@ -22,7 +22,7 @@ export default defineComponent({
 			required: true
 		},
 	},
-	setup() {
+	setup(props) {
 		const isShowAnswer = ref(false)
 		const isShowMeaning = ref(false)
 		function changeIsShowAnswer(value?: boolean) {
@@ -31,24 +31,32 @@ export default defineComponent({
 		function changeIsShowMeaning(value?: boolean) {
 			isShowMeaning.value = value ?? !isShowMeaning.value
 		}
+		watch(() => props.word.middle, () => {
+			isShowAnswer.value = false
+			isShowMeaning.value = false
+		})
 		return { isShowAnswer, changeIsShowAnswer, isShowMeaning, changeIsShowMeaning }
 	},
 	render() {
 		const { word, isShowAnswer, changeIsShowAnswer, isShowMeaning, changeIsShowMeaning, isShowWordOnly, isShowAllAnswer, isShowAllMeaning } = this
 		return (
 			<div class='word-wrapper'>
-				{!isShowWordOnly && <span>{word.left}</span>}
-				{
-					isShowAllAnswer || isShowAnswer
-						? <span class='answer show' onClick={() => changeIsShowAnswer()}>{word.middle}</span>
-						: <span class='answer hidden' onClick={() => changeIsShowAnswer()}>answer</span>
-				}
-				{!isShowWordOnly && <span>{word.right}</span>}
-				{
-					isShowAllMeaning || isShowMeaning
-						? <span class='meaning show' onClick={() => changeIsShowMeaning()}>{word.meaning}</span>
-						: <span class='meaning hidden' onClick={() => changeIsShowMeaning()}>meaning</span>
-				}
+				<div class='left-wrapper'>
+					{!isShowWordOnly && word.left && <span class='left'>{word.left}</span>}
+					{
+						isShowAllAnswer || isShowAnswer
+							? <span class='answer show' onClick={() => changeIsShowAnswer()}>{word.middle}</span>
+							: <span class='answer hidden' onClick={() => changeIsShowAnswer()}>answer</span>
+					}
+					{!isShowWordOnly && word.right && <span class='right'>{word.right}</span>}
+				</div>
+				<div class='right-wrapper' onClick={() => changeIsShowMeaning()}>
+					{
+						isShowAllMeaning || isShowMeaning
+							? <span class='meaning show' >{word.meaning}</span>
+							: <span class='meaning hidden'>meaning</span>
+					}
+				</div>
 			</div>
 		)
 	}

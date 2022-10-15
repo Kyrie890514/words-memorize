@@ -1,30 +1,54 @@
 .word-wrapper {
 	margin: 5px;
 	line-height: 20px;
-}
+	display: flex;
+	flex-flow: row nowrap;
+	border-bottom: 1px dashed pink;
+	padding: 5px 0;
 
-.answer {
-	display: inline-block;
-	margin: 0 10px;
-
-	&.hidden {
-		color: pink;
+	.left-wrapper {
+		flex: 1;
 	}
 
-	&.show {
-		color: purple;
-	}
-}
-
-.meaning {
-	display: inline-block;
-	margin: 0 10px;
-
-	&.hidden {
-		color: pink;
+	.right-wrapper {
+		width: 80px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 
-	&.show {
-		color: purple;
+	.left {
+		display: inline-block;
+		margin-right: 10px;
+	}
+
+	.answer {
+		display: inline-block;
+
+		&.hidden {
+			color: pink;
+		}
+
+		&.show {
+			color: purple;
+		}
+	}
+
+	.right {
+		display: inline-block;
+		margin-left: 10px;
+	}
+
+	.meaning {
+		display: inline-block;
+		margin: 0 10px;
+
+		&.hidden {
+			color: pink;
+		}
+
+		&.show {
+			color: purple;
+		}
 	}
 }
