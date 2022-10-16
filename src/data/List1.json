@@ -110,5 +110,73 @@
 			"right": "fate",
 			"meaning": "悲惨的"
 		}
+	],
+	"Group3": [
+		{
+			"left": "",
+			"middle": "abjure",
+			"right": "a claim",
+			"meaning": "发誓放弃"
+		},
+		{
+			"left": "",
+			"middle": "abnegate",
+			"right": "the resultless love",
+			"meaning": "放弃"
+		},
+		{
+			"left": "",
+			"middle": "abnormal",
+			"right": "phenomena",
+			"meaning": "异常"
+		},
+		{
+			"left": "",
+			"middle": "abolish",
+			"right": "an old tradition",
+			"meaning": "废除"
+		},
+		{
+			"left": "",
+			"middle": "abominate",
+			"right": "the code weather",
+			"meaning": "厌恶"
+		},
+		{
+			"left": "the wave of",
+			"middle": "abominable",
+			"right": "crimes",
+			"meaning": "恶劣的"
+		},
+		{
+			"left": "",
+			"middle": "aborted",
+			"right": "babies",
+			"meaning": "流产的"
+		},
+		{
+			"left": "",
+			"middle": "abort",
+			"right": "her travelling plan",
+			"meaning": "终止"
+		},
+		{
+			"left": "an",
+			"middle": "abortive",
+			"right": "plan",
+			"meaning": "失败的"
+		},
+		{
+			"left": "",
+			"middle": "abound",
+			"right": "with confidence",
+			"meaning": "充满"
+		},
+		{
+			"left": "",
+			"middle": "abundant",
+			"right": "cash",
+			"meaning": "充足的"
+		}
 	]
 }

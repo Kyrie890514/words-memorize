@@ -1,17 +1,17 @@
-const group = 'group 2'
+const group = 'Group3'
 
 const string = `
-the | abdicated | king | 退位|
-abduct | a child ||绑架|
-aberrant |reactions of youths||异常的|
-abet | a crime||教唆|
-stop in |abeyance||中止|
-abhor|careless attitude||厌恶|
-a world without | |abhorrence|憎恨|
-cannot | abide | the loud noise |忍受|
-abide | by the rules||遵守|
-the | abiding|love|持久的|
-her |abject|fate|悲惨的
+|abjure|a claim|发誓放弃|
+|abnegate|the resultless love|放弃|
+|abnormal|phenomena|异常|
+|abolish|an old tradition|废除|
+|abominate|the code weather|厌恶|
+the wave of |abominable|crimes|恶劣的|
+|aborted|babies|流产的|
+|abort |her travelling plan|终止|
+an|abortive|plan|失败的|
+|abound|with confidence|充满|
+|abundant|cash|充足的
 `
 
 const result = { [group]: [] }
