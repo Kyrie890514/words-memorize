@@ -1,4 +1,4 @@
-import { computed, defineComponent } from 'vue'
+import { computed, watch, defineComponent } from 'vue'
 import { lists } from '../data/index'
 import { ref } from 'vue'
 import WordsMenu from '../components/WordsMenu'
@@ -13,8 +13,16 @@ export default defineComponent({
 		for (const list of Object.keys(lists)) {
 			content[list] = Object.keys(lists[list])
 		}
-		const currentList = ref(Object.keys(content)[0])
-		const currentGroup = ref(content[currentList.value][0])
+		const currentList = ref('')
+		const currentGroup = ref('')
+		watch(currentList, (n) => {
+			localStorage.currentList = n
+		})
+		watch(currentGroup, (n) => {
+			localStorage.currentGroup = n
+		})
+		currentList.value = localStorage.currentList || Object.keys(content)[0]
+		currentGroup.value = localStorage.currentGroup || content[currentList.value][0]
 		const words = computed(() => {
 			const groups = lists[currentList.value]
 			return currentGroup.value
