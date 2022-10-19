@@ -26,10 +26,10 @@ export default defineComponent({
 		const isShowAnswer = ref(false)
 		const isShowMeaning = ref(false)
 		function changeIsShowAnswer(value?: boolean) {
-			isShowAnswer.value = value ?? !isShowAnswer.value
+			!props.isShowAllAnswer && (isShowAnswer.value = value ?? !isShowAnswer.value)
 		}
 		function changeIsShowMeaning(value?: boolean) {
-			isShowMeaning.value = value ?? !isShowMeaning.value
+			!props.isShowAllMeaning && (isShowMeaning.value = value ?? !isShowMeaning.value)
 		}
 		watch(() => props.word.middle, () => {
 			isShowAnswer.value = false

@@ -50,17 +50,19 @@ export default defineComponent({
 		function changeIsShowAllMeaning(value?: boolean) {
 			isShowAllMeaning.value = value ?? !isShowAllMeaning.value
 		}
-		return { content, currentList, currentGroup, changeCurrent, words, isShowWordOnly, isShowAllAnswer, isShowAllMeaning, changeIsShowWordOnly, changeisShowAllAnswer, changeIsShowAllMeaning }
+		const key = ref(0)
+		function reload() { key.value++ }
+		return { content, currentList, currentGroup, changeCurrent, words, isShowWordOnly, isShowAllAnswer, isShowAllMeaning, changeIsShowWordOnly, changeisShowAllAnswer, changeIsShowAllMeaning, reload, key }
 	},
 	render() {
-		const { content, currentList, currentGroup, changeCurrent, words, isShowWordOnly, isShowAllAnswer, isShowAllMeaning, changeIsShowWordOnly, changeisShowAllAnswer, changeIsShowAllMeaning } = this
+		const { content, currentList, currentGroup, changeCurrent, words, isShowWordOnly, isShowAllAnswer, isShowAllMeaning, changeIsShowWordOnly, changeisShowAllAnswer, changeIsShowAllMeaning, reload, key } = this
 		return (
 			<div class='words-memorize'>
 				<WordsMenu content={content} onCurrentChange={changeCurrent} onIsShowWordOnlyChange={changeIsShowWordOnly}
-					currentList={currentList} currentGroup={currentGroup}
+					currentList={currentList} currentGroup={currentGroup} onReload={reload}
 					isShowWordOnly={isShowWordOnly} isShowAllAnswer={isShowAllAnswer} isShowAllMeaning={isShowAllMeaning}
 					onIsShowAllAnswerChange={changeisShowAllAnswer} onIsShowAllMeaningChange={changeIsShowAllMeaning} />
-				<WordsWrapper words={words} isShowWordOnly={isShowWordOnly} isShowAllAnswer={isShowAllAnswer} isShowAllMeaning={isShowAllMeaning} />
+				<WordsWrapper key={key} words={words} isShowWordOnly={isShowWordOnly} isShowAllAnswer={isShowAllAnswer} isShowAllMeaning={isShowAllMeaning} />
 			</div >
 		)
 	}

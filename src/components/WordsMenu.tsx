@@ -31,7 +31,7 @@ export default defineComponent({
 			required: true
 		},
 	},
-	emits: ['currentChange', 'isShowWordOnlyChange', 'isShowAllAnswerChange', 'isShowAllMeaningChange'],
+	emits: ['currentChange', 'isShowWordOnlyChange', 'isShowAllAnswerChange', 'isShowAllMeaningChange', 'reload'],
 	setup(props, { emit }) {
 		function changeCurrent(list: string, group?: string) {
 			emit('currentChange', list, group)
@@ -49,10 +49,13 @@ export default defineComponent({
 		function changeIsShowAllMeaning() {
 			emit('isShowAllMeaningChange')
 		}
-		return { changeIsShow, changeCurrent, wordsContent, changeIsShowWordOnly, changeisShowAllAnswer, changeIsShowAllMeaning }
+		function reload() {
+			emit('reload')
+		}
+		return { changeIsShow, changeCurrent, wordsContent, changeIsShowWordOnly, changeisShowAllAnswer, changeIsShowAllMeaning, reload }
 	},
 	render() {
-		const { changeIsShow, currentList, currentGroup, content, changeCurrent, changeIsShowWordOnly, changeisShowAllAnswer, changeIsShowAllMeaning, isShowWordOnly, isShowAllAnswer, isShowAllMeaning } = this
+		const { changeIsShow, currentList, currentGroup, content, changeCurrent, changeIsShowWordOnly, changeisShowAllAnswer, changeIsShowAllMeaning, isShowWordOnly, isShowAllAnswer, isShowAllMeaning, reload } = this
 		return (
 			<div class='menu'>
 				<div class='menu-wrapper'>
@@ -67,6 +70,7 @@ export default defineComponent({
 						<span class={isShowWordOnly && 'is-toggle'} onClick={changeIsShowWordOnly}>W</span>
 						<span class={isShowAllAnswer && 'is-toggle'} onClick={changeisShowAllAnswer}>A</span>
 						<span class={isShowAllMeaning && 'is-toggle'} onClick={changeIsShowAllMeaning}>M</span>
+						<span onClick={reload}>R</span>
 					</div>
 				</div>
 				<Teleport to='#app'>
