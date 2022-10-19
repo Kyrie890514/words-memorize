@@ -42,13 +42,13 @@ export default defineComponent({
 		return (
 			<div class='word-wrapper'>
 				<div class='left-wrapper'>
-					{!isShowWordOnly && word.left && <span class='left'>{word.left}</span>}
+					{!isShowWordOnly && word.left && <span class='left'>{word.left}&nbsp;</span>}
 					{
 						isShowAllAnswer || isShowAnswer
 							? <span class='answer show' onClick={() => changeIsShowAnswer()}>{word.middle}</span>
 							: <span class='answer hidden' onClick={() => changeIsShowAnswer()}>answer</span>
 					}
-					{!isShowWordOnly && word.right && <span class='right'>{word.right}</span>}
+					{!isShowWordOnly && word.right && <span class='right'>&nbsp;{word.right}</span>}
 				</div>
 				<div class='right-wrapper' onClick={() => changeIsShowMeaning()}>
 					{
