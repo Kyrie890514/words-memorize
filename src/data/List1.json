@@ -178,5 +178,73 @@
 			"right": "cash",
 			"meaning": "充足的"
 		}
+	],
+	"Group4": [
+		{
+			"left": "her",
+			"middle": "aboveboard",
+			"right": "business",
+			"meaning": "正大光明的"
+		},
+		{
+			"left": "",
+			"middle": "abrade",
+			"right": "her shin",
+			"meaning": "擦伤"
+		},
+		{
+			"left": "his",
+			"middle": "abrasive",
+			"right": "managing style",
+			"meaning": "粗暴的"
+		},
+		{
+			"left": "the",
+			"middle": "abrasive",
+			"right": "surface",
+			"meaning": "粗糙的"
+		},
+		{
+			"left": "walk",
+			"middle": "abreast",
+			"right": "",
+			"meaning": "齐头"
+		},
+		{
+			"left": "",
+			"middle": "abridged",
+			"right": "books",
+			"meaning": "删减的"
+		},
+		{
+			"left": "",
+			"middle": "abrogate",
+			"right": "a law",
+			"meaning": "废除"
+		},
+		{
+			"left": "",
+			"middle": "abrupt",
+			"right": "changes of weather",
+			"meaning": "突然"
+		},
+		{
+			"left": "",
+			"middle": "absconded",
+			"right": "prisoners",
+			"meaning": "潜逃的"
+		},
+		{
+			"left": "",
+			"middle": "absent",
+			"right": "from school",
+			"meaning": "不在"
+		},
+		{
+			"left": "his",
+			"middle": "absent",
+			"right": "mind",
+			"meaning": "心不在焉"
+		}
 	]
 }
