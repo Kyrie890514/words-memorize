@@ -17,10 +17,6 @@
 		justify-content: center;
 	}
 
-	.left {
-		display: inline-block;
-	}
-
 	.answer {
 		display: inline-block;
 
@@ -31,10 +27,6 @@
 		&.show {
 			color: purple;
 		}
-	}
-
-	.right {
-		display: inline-block;
 	}
 
 	.meaning {

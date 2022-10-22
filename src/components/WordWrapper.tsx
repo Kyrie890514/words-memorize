@@ -45,10 +45,10 @@ export default defineComponent({
 					{!isShowWordOnly && word.left && <span class='left'>{word.left}&nbsp;</span>}
 					{
 						isShowAllAnswer || isShowAnswer
-							? <span class='answer show' onClick={() => changeIsShowAnswer()}>{word.middle}</span>
-							: <span class='answer hidden' onClick={() => changeIsShowAnswer()}>answer</span>
+							? <span class='answer show' onClick={() => changeIsShowAnswer()}>{word.middle}&nbsp;</span>
+							: <span class='answer hidden' onClick={() => changeIsShowAnswer()}>answer&nbsp;</span>
 					}
-					{!isShowWordOnly && word.right && <span class='right'>&nbsp;{word.right}</span>}
+					{!isShowWordOnly && word.right && <span class='right'>{word.right}</span>}
 				</div>
 				<div class='right-wrapper' onClick={() => changeIsShowMeaning()}>
 					{
