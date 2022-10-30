@@ -3,7 +3,7 @@ import { lists } from '../data/index'
 import { ref } from 'vue'
 import WordsMenu from '../components/WordsMenu'
 import WordsWrapper from '../components/WordsWrapper'
-import type { Content } from '../type'
+import type { Content } from '../data/type'
 import '../style/WordsMemorize.scss'
 
 export default defineComponent({
@@ -41,6 +41,7 @@ export default defineComponent({
 		const isShowWordOnly = ref(false)
 		const isShowAllAnswer = ref(false)
 		const isShowAllMeaning = ref(false)
+		const isShowAllPhonogram = ref(false)
 		function changeIsShowWordOnly(value?: boolean) {
 			isShowWordOnly.value = value ?? !isShowWordOnly.value
 		}
@@ -50,19 +51,23 @@ export default defineComponent({
 		function changeIsShowAllMeaning(value?: boolean) {
 			isShowAllMeaning.value = value ?? !isShowAllMeaning.value
 		}
+		function changeIsShowAllPhonogram(value?: boolean) {
+			isShowAllPhonogram.value = value ?? !isShowAllPhonogram.value
+		}
 		const key = ref(0)
 		function reload() { key.value++ }
-		return { content, currentList, currentGroup, changeCurrent, words, isShowWordOnly, isShowAllAnswer, isShowAllMeaning, changeIsShowWordOnly, changeisShowAllAnswer, changeIsShowAllMeaning, reload, key }
+		return { content, currentList, currentGroup, changeCurrent, words, isShowWordOnly, isShowAllAnswer, isShowAllMeaning, isShowAllPhonogram, changeIsShowWordOnly, changeisShowAllAnswer, changeIsShowAllMeaning, changeIsShowAllPhonogram, reload, key }
 	},
 	render() {
-		const { content, currentList, currentGroup, changeCurrent, words, isShowWordOnly, isShowAllAnswer, isShowAllMeaning, changeIsShowWordOnly, changeisShowAllAnswer, changeIsShowAllMeaning, reload, key } = this
+		const { content, currentList, currentGroup, changeCurrent, words, isShowWordOnly, isShowAllAnswer, isShowAllMeaning, isShowAllPhonogram, changeIsShowWordOnly, changeisShowAllAnswer, changeIsShowAllMeaning, changeIsShowAllPhonogram, reload, key } = this
 		return (
 			<div class='words-memorize'>
 				<WordsMenu content={content} onCurrentChange={changeCurrent} onIsShowWordOnlyChange={changeIsShowWordOnly}
 					currentList={currentList} currentGroup={currentGroup} onReload={reload}
 					isShowWordOnly={isShowWordOnly} isShowAllAnswer={isShowAllAnswer} isShowAllMeaning={isShowAllMeaning}
+					isShowAllPhonogram={isShowAllPhonogram} onIsShowAllPhonogramChange={changeIsShowAllPhonogram}
 					onIsShowAllAnswerChange={changeisShowAllAnswer} onIsShowAllMeaningChange={changeIsShowAllMeaning} />
-				<WordsWrapper key={key} words={words} isShowWordOnly={isShowWordOnly} isShowAllAnswer={isShowAllAnswer} isShowAllMeaning={isShowAllMeaning} />
+				<WordsWrapper key={key} words={words} isShowWordOnly={isShowWordOnly} isShowAllAnswer={isShowAllAnswer} isShowAllMeaning={isShowAllMeaning} isShowAllPhonogram={isShowAllPhonogram} />
 			</div >
 		)
 	}

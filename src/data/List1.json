@@ -4,43 +4,50 @@
 			"left": "a girl taken",
 			"middle": "aback",
 			"right": "",
-			"meaning": "吓"
+			"meaning": "吓",
+			"phonogram": ""
 		},
 		{
 			"left": "Rats",
 			"middle": "abandon",
 			"right": "a sinking ship.",
-			"meaning": "逃离"
+			"meaning": "逃离",
+			"phonogram": ""
 		},
 		{
 			"left": "drink with wild",
 			"middle": "abandon",
 			"right": "",
-			"meaning": "放纵"
+			"meaning": "放纵",
+			"phonogram": ""
 		},
 		{
 			"left": "Never",
 			"middle": "abase",
 			"right": "yourself!",
-			"meaning": "自卑"
+			"meaning": "自卑",
+			"phonogram": ""
 		},
 		{
 			"left": "feel",
 			"middle": "abashed",
 			"right": "in public",
-			"meaning": "羞愧"
+			"meaning": "羞愧",
+			"phonogram": ""
 		},
 		{
 			"left": "wait for the flood to",
 			"middle": "abate",
 			"right": "",
-			"meaning": "退去"
+			"meaning": "退去",
+			"phonogram": ""
 		},
 		{
 			"left": "its",
 			"middle": "abbreviated",
 			"right": "name",
-			"meaning": "缩写"
+			"meaning": "缩写",
+			"phonogram": ""
 		}
 	],
 	"Group2": [
@@ -48,67 +55,78 @@
 			"left": "the",
 			"middle": "abdicated",
 			"right": "king",
-			"meaning": "退位"
+			"meaning": "退位",
+			"phonogram": ""
 		},
 		{
 			"left": "",
 			"middle": "abduct",
 			"right": "a child",
-			"meaning": "绑架"
+			"meaning": "绑架",
+			"phonogram": ""
 		},
 		{
 			"left": "",
 			"middle": "aberrant",
 			"right": "reactions of youths",
-			"meaning": "异常的"
+			"meaning": "异常的",
+			"phonogram": ""
 		},
 		{
 			"left": "",
 			"middle": "abet",
 			"right": "a crime",
-			"meaning": "教唆"
+			"meaning": "教唆",
+			"phonogram": ""
 		},
 		{
 			"left": "stop in",
 			"middle": "abeyance",
 			"right": "",
-			"meaning": "中止"
+			"meaning": "中止",
+			"phonogram": ""
 		},
 		{
 			"left": "",
 			"middle": "abhor",
 			"right": "careless attitude",
-			"meaning": "厌恶"
+			"meaning": "厌恶",
+			"phonogram": ""
 		},
 		{
 			"left": "a world without",
 			"middle": "abhorrence",
 			"right": "",
-			"meaning": "憎恨"
+			"meaning": "憎恨",
+			"phonogram": ""
 		},
 		{
 			"left": "cannot",
 			"middle": "abide",
 			"right": "the loud noise",
-			"meaning": "忍受"
+			"meaning": "忍受",
+			"phonogram": ""
 		},
 		{
 			"left": "",
 			"middle": "abide",
 			"right": "by the rules",
-			"meaning": "遵守"
+			"meaning": "遵守",
+			"phonogram": ""
 		},
 		{
 			"left": "the",
 			"middle": "abiding",
 			"right": "love",
-			"meaning": "持久的"
+			"meaning": "持久的",
+			"phonogram": ""
 		},
 		{
 			"left": "her",
 			"middle": "abject",
 			"right": "fate",
-			"meaning": "悲惨的"
+			"meaning": "悲惨的",
+			"phonogram": ""
 		}
 	],
 	"Group3": [
@@ -116,67 +134,78 @@
 			"left": "",
 			"middle": "abjure",
 			"right": "a claim",
-			"meaning": "发誓放弃"
+			"meaning": "发誓放弃",
+			"phonogram": ""
 		},
 		{
 			"left": "",
 			"middle": "abnegate",
 			"right": "the resultless love",
-			"meaning": "放弃"
+			"meaning": "放弃",
+			"phonogram": ""
 		},
 		{
 			"left": "",
 			"middle": "abnormal",
 			"right": "phenomena",
-			"meaning": "异常"
+			"meaning": "异常",
+			"phonogram": ""
 		},
 		{
 			"left": "",
 			"middle": "abolish",
 			"right": "an old tradition",
-			"meaning": "废除"
+			"meaning": "废除",
+			"phonogram": ""
 		},
 		{
 			"left": "",
 			"middle": "abominate",
 			"right": "the code weather",
-			"meaning": "厌恶"
+			"meaning": "厌恶",
+			"phonogram": ""
 		},
 		{
 			"left": "the wave of",
 			"middle": "abominable",
 			"right": "crimes",
-			"meaning": "恶劣的"
+			"meaning": "恶劣的",
+			"phonogram": ""
 		},
 		{
 			"left": "",
 			"middle": "aborted",
 			"right": "babies",
-			"meaning": "流产的"
+			"meaning": "流产的",
+			"phonogram": ""
 		},
 		{
 			"left": "",
 			"middle": "abort",
 			"right": "her travelling plan",
-			"meaning": "终止"
+			"meaning": "终止",
+			"phonogram": ""
 		},
 		{
 			"left": "an",
 			"middle": "abortive",
 			"right": "plan",
-			"meaning": "失败的"
+			"meaning": "失败的",
+			"phonogram": ""
 		},
 		{
 			"left": "",
 			"middle": "abound",
 			"right": "with confidence",
-			"meaning": "充满"
+			"meaning": "充满",
+			"phonogram": ""
 		},
 		{
 			"left": "",
 			"middle": "abundant",
 			"right": "cash",
-			"meaning": "充足的"
+			"meaning": "充足的",
+			"phonogram": ""
 		}
 	],
 	"Group4": [
@@ -184,67 +213,129 @@
 			"left": "her",
 			"middle": "aboveboard",
 			"right": "business",
-			"meaning": "正大光明的"
+			"meaning": "正大光明的",
+			"phonogram": ""
 		},
 		{
 			"left": "",
 			"middle": "abrade",
-			"right": "her shin",
-			"meaning": "擦伤"
+			"right": "her skin",
+			"meaning": "擦伤",
+			"phonogram": ""
 		},
 		{
 			"left": "his",
 			"middle": "abrasive",
 			"right": "managing style",
-			"meaning": "粗暴的"
+			"meaning": "粗暴的",
+			"phonogram": ""
 		},
 		{
 			"left": "the",
 			"middle": "abrasive",
 			"right": "surface",
-			"meaning": "粗糙的"
+			"meaning": "粗糙的",
+			"phonogram": ""
 		},
 		{
 			"left": "walk",
 			"middle": "abreast",
 			"right": "",
-			"meaning": "齐头"
+			"meaning": "齐头",
+			"phonogram": ""
 		},
 		{
 			"left": "",
 			"middle": "abridged",
 			"right": "books",
-			"meaning": "删减的"
+			"meaning": "删减的",
+			"phonogram": ""
 		},
 		{
 			"left": "",
 			"middle": "abrogate",
 			"right": "a law",
-			"meaning": "废除"
+			"meaning": "废除",
+			"phonogram": ""
 		},
 		{
 			"left": "",
 			"middle": "abrupt",
 			"right": "changes of weather",
-			"meaning": "突然"
+			"meaning": "突然",
+			"phonogram": ""
 		},
 		{
 			"left": "",
 			"middle": "absconded",
 			"right": "prisoners",
-			"meaning": "潜逃的"
+			"meaning": "潜逃的",
+			"phonogram": ""
 		},
 		{
 			"left": "",
 			"middle": "absent",
 			"right": "from school",
-			"meaning": "不在"
+			"meaning": "不在",
+			"phonogram": ""
 		},
 		{
 			"left": "his",
 			"middle": "absent",
 			"right": "mind",
-			"meaning": "心不在焉"
+			"meaning": "心不在焉",
+			"phonogram": ""
+		}
+	],
+	"Group5": [
+		{
+			"left": "fight the dark",
+			"middle": "absolutism",
+			"right": "",
+			"meaning": "专权",
+			"phonogram": ""
+		},
+		{
+			"left": "",
+			"middle": "absolve",
+			"right": "the criminals",
+			"meaning": "赦免",
+			"phonogram": ""
+		},
+		{
+			"left": "",
+			"middle": "absorb",
+			"right": "water",
+			"meaning": "吸",
+			"phonogram": ""
+		},
+		{
+			"left": "cannot",
+			"middle": "absorb",
+			"right": "those costs",
+			"meaning": "承受",
+			"phonogram": ""
+		},
+		{
+			"left": "an",
+			"middle": "absorbing",
+			"right": "story",
+			"meaning": "吸引人的",
+			"phonogram": ""
+		},
+		{
+			"left": "",
+			"middle": "abstain",
+			"right": "from smoke",
+			"meaning": "戒掉",
+			"phonogram": ""
+		},
+		{
+			"left": "her",
+			"middle": "abstemious",
+			"right": "diets",
+			"meaning": "节制的",
+			"phonogram": "[əb'sti:miəs]"
 		}
 	]
 }

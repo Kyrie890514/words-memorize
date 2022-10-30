@@ -1,134 +1,53 @@
 {
-	"group21": [
+	"Group5": [
 		{
-			"left": "test21",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
+			"left": "fight the dark",
+			"middle": "absolutism",
+			"right": "",
+			"meaning": "专权",
+			"phonogram": ""
 		},
 		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
+			"left": "",
+			"middle": "absolve",
+			"right": "the criminals",
+			"meaning": "赦免",
+			"phonogram": ""
 		},
 		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
+			"left": "",
+			"middle": "absorb",
+			"right": "water",
+			"meaning": "吸",
+			"phonogram": ""
 		},
 		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
+			"left": "cannot",
+			"middle": "absorb",
+			"right": "those costs",
+			"meaning": "承受",
+			"phonogram": ""
 		},
 		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
+			"left": "an",
+			"middle": "absorbing",
+			"right": "story",
+			"meaning": "吸引人的",
+			"phonogram": ""
 		},
 		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
+			"left": "",
+			"middle": "abstain",
+			"right": "from smoke",
+			"meaning": "戒掉",
+			"phonogram": ""
 		},
 		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
-		}
-	],
-	"group22": [
-		{
-			"left": "test22",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
-		},
-		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
-		},
-		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
-		},
-		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
-		},
-		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
-		},
-		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
-		},
-		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
-		}
-	],
-	"group3": [
-		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
-		},
-		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
-		},
-		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
-		},
-		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
-		},
-		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
-		},
-		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
-		},
-		{
-			"left": "test",
-			"middle": "answer",
-			"right": "xxx",
-			"meaning": "解释"
+			"left": "her",
+			"middle": "abstemious",
+			"right": "diets",
+			"meaning": "节制的",
+			"phonogram": "[əb'sti:miəs]"
 		}
 	]
 }

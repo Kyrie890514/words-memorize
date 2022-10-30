@@ -1,5 +1,5 @@
 import { defineComponent, type PropType } from 'vue'
-import type { Word } from '@/type'
+import type { Word } from '@/data/type'
 import WordWrapper from './WordWrapper'
 import '../style/WordsWrapper.scss'
 
@@ -22,11 +22,16 @@ export default defineComponent({
 			type: Boolean,
 			required: true
 		},
+		isShowAllPhonogram: {
+			type: Boolean,
+			required: true
+		}
 	},
 	render() {
-		const { words, isShowWordOnly, isShowAllAnswer, isShowAllMeaning } = this
+		const { words, isShowWordOnly, isShowAllAnswer, isShowAllMeaning, isShowAllPhonogram } = this
 		return <div class='words-wrapper'>
-			{words.map(word => <WordWrapper word={word} isShowWordOnly={isShowWordOnly} isShowAllAnswer={isShowAllAnswer} isShowAllMeaning={isShowAllMeaning} />)}
+			{words.map(word => <WordWrapper word={word} isShowWordOnly={isShowWordOnly} isShowAllAnswer={isShowAllAnswer}
+				isShowAllMeaning={isShowAllMeaning} isShowAllPhonogram={isShowAllPhonogram} />)}
 		</div>
 	}
 })

@@ -1,17 +1,14 @@
-const group = 'Group4'
+const group = 'Group5'
 
 const string = `
-her|aboveboard|business|正大光明的|
-|abrade|her shin|擦伤|
-his|abrasive|managing style|粗暴的|
-the | abrasive |surfaca| 粗糙的|
-|walk |abreast|	齐头|
-|abridged|books|删减的|
-|abrogate|a law|废除|
-|abrupt|changes of weather|突然|
-|absconded|prisoners|潜逃的|
-|absent|from school|不在|
-his |absent|mind|心不在焉
+fight the dark|absolutism||专权|
+|absolve|the criminals|赦免|
+|absorb|water|吸|
+cannot|absorb|those costs|承受|
+an |absorbing|story|吸引人的|
+|abstain|from smoke|戒掉|
+her|abstemious|diets|节制的|
+
 `
 
 const result = { [group]: [] }

@@ -5,6 +5,7 @@ export interface Word {
 	middle: string
 	right: string
 	meaning: string
+	phonogram: string
 }
 
 export interface List {

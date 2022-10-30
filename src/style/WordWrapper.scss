@@ -1,44 +1,48 @@
 .word-wrapper {
 	margin: 5px;
-	line-height: 20px;
 	display: flex;
-	flex-flow: row nowrap;
+	flex-flow: column nowrap;
 	border-bottom: 1px dashed pink;
 	padding: 5px 0;
 
-	.left-wrapper {
-		flex: 1;
+	.top-wrapper {
+		.answer {
+			&.hidden {
+				color: pink;
+			}
+
+			&.show {
+				color: purple;
+			}
+		}
 	}
 
-	.right-wrapper {
-		width: 80px;
+	.bottom-wrapper {
 		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
 		align-items: center;
-		justify-content: center;
-	}
+		margin-top: 6px;
+		height: 20px;
 
-	.answer {
-		display: inline-block;
+		.meaning {
+			&.hidden {
+				color: pink;
+			}
 
-		&.hidden {
-			color: pink;
+			&.show {
+				color: purple;
+			}
 		}
 
-		&.show {
-			color: purple;
-		}
-	}
+		.phonogram {
+			&.hidden {
+				color: pink;
+			}
 
-	.meaning {
-		display: inline-block;
-		margin: 0 10px;
-
-		&.hidden {
-			color: pink;
-		}
-
-		&.show {
-			color: purple;
+			&.show {
+				color: purple;
+			}
 		}
 	}
 }

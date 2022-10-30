@@ -1,5 +1,5 @@
 import { defineComponent, ref, type PropType } from 'vue'
-import type { Content } from '../type'
+import type { Content } from '../data/type'
 import '../style/WordsContent.scss'
 
 export default defineComponent({
