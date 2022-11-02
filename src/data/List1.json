@@ -337,5 +337,142 @@
 			"meaning": "节制的",
 			"phonogram": "[əbˈstiːmiəs]"
 		}
+	],
+	"Group6": [
+		{
+			"left": "total",
+			"middle": "abstinence",
+			"right": "from alcohol",
+			"meaning": "戒",
+			"phonogram": "[ˈæbstɪnəns]"
+		},
+		{
+			"left": "",
+			"middle": "abstract",
+			"right": "concepts",
+			"meaning": "抽象的",
+			"phonogram": "[ˈæbstrækt]"
+		},
+		{
+			"left": "",
+			"middle": "abstract",
+			"right": "water from the well",
+			"meaning": "抽",
+			"phonogram": "[ˈæbstrækt]"
+		},
+		{
+			"left": "",
+			"middle": "abstraction",
+			"right": "in class",
+			"meaning": "走神",
+			"phonogram": "[æbˈstrækʃn]"
+		},
+		{
+			"left": "",
+			"middle": "abstruse",
+			"right": "math problems",
+			"meaning": "难懂的",
+			"phonogram": "[əbˈstruːs]"
+		},
+		{
+			"left": "his",
+			"middle": "absurd",
+			"right": "jokes",
+			"meaning": "荒谬的",
+			"phonogram": "[əbˈsɜːrd]"
+		},
+		{
+			"left": "child",
+			"middle": "abuse",
+			"right": "",
+			"meaning": "虐待",
+			"phonogram": "[əˈbjuːs]"
+		},
+		{
+			"left": "",
+			"middle": "abusing",
+			"right": "language",
+			"meaning": "辱骂的",
+			"phonogram": "[əˈbjuːzɪŋ]"
+		},
+		{
+			"left": "drug",
+			"middle": "abuse",
+			"right": "",
+			"meaning": "滥用",
+			"phonogram": "[əˈbjuːs]"
+		},
+		{
+			"left": "her",
+			"middle": "abusive",
+			"right": "language",
+			"meaning": "骂人的",
+			"phonogram": "[əˈbjuːsɪv]"
+		}
+	],
+	"Group7": [
+		{
+			"left": "our",
+			"middle": "abutting",
+			"right": "neighbor",
+			"meaning": "邻近的",
+			"phonogram": "[əˈbʌtɪŋ]"
+		},
+		{
+			"left": "in",
+			"middle": "abysmal",
+			"right": "poverty",
+			"meaning": "极度的",
+			"phonogram": "[əˈbɪzməl]"
+		},
+		{
+			"left": "a dark",
+			"middle": "abyss",
+			"right": "",
+			"meaning": "深渊",
+			"phonogram": "[əˈbɪs]"
+		},
+		{
+			"left": "the open-minded",
+			"middle": "academia",
+			"right": "",
+			"meaning": "学术界",
+			"phonogram": "[ˌækəˈdiːmiə]"
+		},
+		{
+			"left": "obey the",
+			"middle": "academic",
+			"right": "authority",
+			"meaning": "学术的",
+			"phonogram": "[ˌækəˈdemɪk]"
+		},
+		{
+			"left": "",
+			"middle": "accede",
+			"right": "to her demand",
+			"meaning": "答应",
+			"phonogram": "[əkˈsiːd]"
+		},
+		{
+			"left": "",
+			"middle": "accelerating",
+			"right": "economic growth",
+			"meaning": "加速的",
+			"phonogram": "[əkˈseləreɪtɪŋ]"
+		},
+		{
+			"left": "",
+			"middle": "accentuate",
+			"right": "the importance of communication skills",
+			"meaning": "强调",
+			"phonogram": "[əkˈsentʃueɪt]"
+		},
+		{
+			"left": "have free",
+			"middle": "access",
+			"right": "to the library",
+			"meaning": "进入",
+			"phonogram": "[ˈækses]"
+		}
 	]
 }

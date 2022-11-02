@@ -1,14 +1,17 @@
-const group = 'Group5'
+const group = 'Group6'
 
 const string = `
-fight the dark|absolutism||专权|
-|absolve|the criminals|赦免|
-|absorb|water|吸|
-cannot|absorb|those costs|承受|
-an |absorbing|story|吸引人的|
-|abstain|from smoke|戒掉|
-her|abstemious|diets|节制的|
 
+total|abstinence|from alcohol|戒|
+|abstract|concepts|抽象的|
+|abstract|water from the well|抽|
+|abstraction|in class|走神|
+|abstruse|math problems|难懂的|
+his|absurd|jokes|荒谬的|
+child|abuse||虐待|
+|abusing|language|辱骂的|
+drug|abuse||滥用|
+her|abusive|language|骂人的|
 `
 
 const result = { [group]: [] }
@@ -28,6 +31,7 @@ string.split('|').map(v => v.trim()).reduce((pre, cur, index) => {
 			break
 		case 3:
 			pre.meaning = cur
+			pre.phonogram = ''
 			result[group].push(pre)
 			break
 	}
