@@ -1,40 +1,60 @@
-import { defineComponent, ref, type PropType } from 'vue'
+import { defineComponent, reactive, ref, watch, type PropType } from 'vue'
 import type { Menu } from '../data/type'
 import '../style/WordsMenu.scss'
 
 export default defineComponent({
 	name: 'WordsMenu',
 	props: {
+		currentList: {
+			type: String,
+			required: true
+		},
+		currentGroup: {
+			type: String,
+			required: true
+		},
 		menu: {
 			type: Object as PropType<Menu>,
 			required: true
 		}
 	},
 	emits: ['currentChange'],
-	setup(_, { emit }) {
+	setup(props, { emit }) {
 		const visible = ref(false)
 		const changeVisible = () => {
 			visible.value = !visible.value
 		}
+
+		const lists: { [key: string]: boolean } = reactive({})
+		watch(() => props.currentList, () => {
+			for (const list of Object.keys(props.menu)) {
+				lists[list] = list === props.currentList
+			}
+		}, { immediate: true })
 
 		const changeCurrent = (list: string, group: string) => {
 			emit('currentChange', list, group)
 			changeVisible()
 		}
 
-		return { visible, changeVisible, changeCurrent }
+		return { visible, changeVisible, lists, changeCurrent }
 	},
 	render() {
-		const { menu, visible, changeCurrent } = this
+		const { menu, visible, lists, currentList, currentGroup, changeCurrent } = this
 		return (
 			<div class='menu' style={`display:${visible ? 'flex' : 'none'}`}>
 				{Object.keys(menu).map(list => (
 					<>
-						<div class='list' onClick={() => { }}>{list}</div>
+						<div class='list' onClick={() => { lists[list] = !lists[list] }}>{list}</div>
 						{
-							menu[list].map(group => (
-								<div class='group' onClick={() => changeCurrent(list, group)}>{group}</div>
-							))
+							lists[list]
+								? (
+									menu[list].map(group => (
+										<div class={currentList === list && currentGroup === group ? 'group highlight' : 'group'}
+											onClick={() => changeCurrent(list, group)}>{group}</div>
+									))
+								)
+								: null
 						}
 					</>
 				))}

@@ -1,4 +1,5 @@
 .menu {
+	width: 100px;
 	position: absolute;
 	display: flex;
 	flex-flow: column nowrap;
@@ -19,4 +20,8 @@
 
 .group {
 	margin-left: 10px;
+
+	&.highlight {
+		color: pink;
+	}
 }

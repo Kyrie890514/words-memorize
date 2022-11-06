@@ -64,7 +64,8 @@ export default defineComponent({
 					</div>
 				</div>
 				<Teleport to='#app'>
-					<WordsMenu ref='wordsMenu' menu={menu} onCurrentChange={changeCurrent} />
+					<WordsMenu ref='wordsMenu' menu={menu}
+						currentGroup={currentGroup} currentList={currentList} onCurrentChange={changeCurrent} />
 				</Teleport>
 			</div>
 		)
