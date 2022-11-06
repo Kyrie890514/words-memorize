@@ -35,11 +35,11 @@ export default defineComponent({
 		const getRandomWords = () => {
 			const length = wordKeys.length
 			if (length > 10) {
-				const resultKeys: Set<number> = new Set()
-				while (resultKeys.size < 10) {
-					resultKeys.add(Math.floor(Math.random() * length))
+				const indices: Set<number> = new Set()
+				while (indices.size < 10) {
+					indices.add(Math.floor(Math.random() * length))
 				}
-				return Array.from(resultKeys, wordKey => words[wordKeys[wordKey]])
+				return Array.from(indices, index => words[wordKeys[index]])
 			} else {
 				return Object.values(words)
 			}
@@ -51,13 +51,17 @@ export default defineComponent({
 		}
 		changeWords()
 
+		const search = (value: string) => {
+			showWords.value = wordKeys.filter(wordKey => wordKey.indexOf(value) !== -1).map(wordKey => words[wordKey])
+		}
+
 		const changeCurrent = (list: string, group: string) => {
 			currentList.value = list
 			currentGroup.value = group
 			changeWords()
 		}
 
-		const condition: Condition = reactive({
+		const condition = reactive<Condition>({
 			isShowWordOnly: false,
 			isShowAllAnswer: false,
 			isShowAllMeaning: false,
@@ -68,22 +72,22 @@ export default defineComponent({
 		}
 
 		const key = ref(0)
-		function reload() { key.value++ }
+		const reload = () => { key.value++ }
 
 		return {
-			menu, currentList, currentGroup, changeCurrent, showWords,
+			menu, currentList, currentGroup, changeCurrent, showWords, search,
 			condition, changeCondition, reload, key
 		}
 	},
 	render() {
 		const {
-			menu, currentList, currentGroup, changeCurrent, showWords,
+			menu, currentList, currentGroup, changeCurrent, showWords, search,
 			condition, changeCondition, reload, key
 		} = this
 		return (
-			<div class='-memorize'>
+			<div class='words-memorize'>
 				<WordsHeader menu={menu} currentList={currentList} currentGroup={currentGroup} onCurrentChange={changeCurrent}
-					condition={condition} onConditionChange={changeCondition} onReload={reload} />
+					onSearch={search} condition={condition} onConditionChange={changeCondition} onReload={reload} />
 				<WordsWrapper key={key} words={showWords} condition={condition} />
 			</div >
 		)

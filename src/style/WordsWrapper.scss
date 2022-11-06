@@ -6,4 +6,11 @@
 	border-radius: 0 0 4px 4px;
 	padding: 5px 10px;
 	overflow: auto;
+
+	.error-text {
+		display: flex;
+		justify-content: center;
+		color: purple;
+		margin-top: 20px;
+	}
 }

@@ -19,9 +19,15 @@ export default defineComponent({
 		const { words, condition } = this
 		return (
 			<div class='words-wrapper'>
-				{words.map(word => (
-					<WordWrapper word={word} condition={condition} />
-				))}
+				{
+					words.length
+						? (
+							words.map(word => (
+								<WordWrapper word={word} condition={condition} />
+							))
+						)
+						: <div class='error-text'>Sorry, but there is no related words</div>
+				}
 			</div>
 		)
 	}
