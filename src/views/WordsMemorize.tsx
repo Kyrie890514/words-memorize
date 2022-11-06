@@ -52,7 +52,7 @@ export default defineComponent({
 		changeWords()
 
 		const search = (value: string) => {
-			showWords.value = wordKeys.filter(wordKey => wordKey.indexOf(value) !== -1).map(wordKey => words[wordKey])
+			showWords.value = wordKeys.filter(wordKey => wordKey.indexOf(value.toLowerCase()) !== -1).map(wordKey => words[wordKey])
 		}
 
 		const changeCurrent = (list: string, group: string) => {
