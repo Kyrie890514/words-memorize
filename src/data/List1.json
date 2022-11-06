@@ -5,49 +5,49 @@
 			"middle": "aback",
 			"right": "",
 			"meaning": "吓",
-			"phonogram": "[əˈbæk]"
+			"phonogram": "/əˈbak/"
 		},
 		{
 			"left": "Rats",
 			"middle": "abandon",
 			"right": "a sinking ship.",
 			"meaning": "逃离",
-			"phonogram": "[əˈbændən]"
+			"phonogram": "/əˈband(ə)n/"
 		},
 		{
 			"left": "drink with wild",
 			"middle": "abandon",
 			"right": "",
 			"meaning": "放纵",
-			"phonogram": "[əˈbændən]"
+			"phonogram": "/əˈband(ə)n/"
 		},
 		{
 			"left": "Never",
 			"middle": "abase",
 			"right": "yourself !",
 			"meaning": "自卑",
-			"phonogram": "[əˈbeɪs]"
+			"phonogram": "/əˈbeɪs/"
 		},
 		{
 			"left": "feel",
 			"middle": "abashed",
 			"right": "in public",
 			"meaning": "羞愧",
-			"phonogram": "[əˈbæʃt]"
+			"phonogram": "/əˈbaʃt/"
 		},
 		{
 			"left": "wait for the flood to",
 			"middle": "abate",
 			"right": "",
 			"meaning": "退去",
-			"phonogram": "[əˈbeɪt]"
+			"phonogram": "/əˈbeɪt/"
 		},
 		{
 			"left": "its",
 			"middle": "abbreviated",
 			"right": "name",
 			"meaning": "缩写",
-			"phonogram": "[əˈbriːvieɪtɪd]"
+			"phonogram": "/əˈbriːvɪeɪtɪd/"
 		}
 	],
 	"Group2": [
@@ -56,77 +56,77 @@
 			"middle": "abdicated",
 			"right": "king",
 			"meaning": "退位",
-			"phonogram": "[ˈæbdɪkeɪt]"
+			"phonogram": "/ˈabdɪkeɪt/"
 		},
 		{
 			"left": "",
 			"middle": "abduct",
 			"right": "a child",
 			"meaning": "绑架",
-			"phonogram": "[æbˈdʌkt]"
+			"phonogram": "/əbˈdʌkt/"
 		},
 		{
 			"left": "",
 			"middle": "aberrant",
 			"right": "reactions of youths",
 			"meaning": "异常的",
-			"phonogram": "[əˈberənt]"
+			"phonogram": "/əˈbɛr(ə)nt/"
 		},
 		{
 			"left": "",
 			"middle": "abet",
 			"right": "a crime",
 			"meaning": "教唆",
-			"phonogram": "[əˈbet]"
+			"phonogram": "/əˈbɛt/"
 		},
 		{
 			"left": "stop in",
 			"middle": "abeyance",
 			"right": "",
 			"meaning": "中止",
-			"phonogram": "[əˈbeɪəns]"
+			"phonogram": "/əˈbeɪəns/"
 		},
 		{
 			"left": "",
 			"middle": "abhor",
 			"right": "careless attitude",
 			"meaning": "厌恶",
-			"phonogram": "[əbˈhɔːr]"
+			"phonogram": "/əbˈhɔː/"
 		},
 		{
 			"left": "a world without",
 			"middle": "abhorrence",
 			"right": "",
 			"meaning": "憎恨",
-			"phonogram": "[əbˈhɔːrəns]"
+			"phonogram": "/əbˈhɒr(ə)ns/"
 		},
 		{
 			"left": "cannot",
 			"middle": "abide",
 			"right": "the loud noise",
 			"meaning": "忍受",
-			"phonogram": "[əˈbaɪd]"
+			"phonogram": "/əˈbʌɪd/"
 		},
 		{
 			"left": "",
 			"middle": "abide",
 			"right": "by the rules",
 			"meaning": "遵守",
-			"phonogram": "[əˈbaɪd]"
+			"phonogram": "/əˈbʌɪd/"
 		},
 		{
 			"left": "the",
 			"middle": "abiding",
 			"right": "love",
 			"meaning": "持久的",
-			"phonogram": "[əˈbaɪdɪŋ]"
+			"phonogram": "/əˈbʌɪdɪŋ/"
 		},
 		{
 			"left": "her",
 			"middle": "abject",
 			"right": "fate",
 			"meaning": "悲惨的",
-			"phonogram": "[ˈæbdʒekt]"
+			"phonogram": "/ˈabdʒɛkt/"
 		}
 	],
 	"Group3": [
@@ -135,77 +135,77 @@
 			"middle": "abjure",
 			"right": "a claim",
 			"meaning": "发誓放弃",
-			"phonogram": "[əbˈdʒʊr]"
+			"phonogram": "/əbˈdʒʊə,əbˈdʒɔː/"
 		},
 		{
 			"left": "",
 			"middle": "abnegate",
 			"right": "the resultless love",
 			"meaning": "放弃",
-			"phonogram": "[ˈæbnəˌgeɪt]"
+			"phonogram": "/ˈabnɪɡeɪt/"
 		},
 		{
 			"left": "",
 			"middle": "abnormal",
 			"right": "phenomena",
 			"meaning": "异常",
-			"phonogram": "[æbˈnɔːrm(ə)l]"
+			"phonogram": "/abˈnɔːm(ə)l/"
 		},
 		{
 			"left": "",
 			"middle": "abolish",
 			"right": "an old tradition",
 			"meaning": "废除",
-			"phonogram": "[əˈbɑːlɪʃ]"
+			"phonogram": "/əˈbɒlɪʃ/"
 		},
 		{
 			"left": "",
 			"middle": "abominate",
 			"right": "the code weather",
 			"meaning": "厌恶",
-			"phonogram": "[əˈbɑːmɪneɪt]"
+			"phonogram": "/əˈbɒmɪneɪt/"
 		},
 		{
 			"left": "the wave of",
 			"middle": "abominable",
 			"right": "crimes",
 			"meaning": "恶劣的",
-			"phonogram": "[əˈbɑːmɪnəb(ə)l]"
+			"phonogram": "/əˈbɒm(ə)nəb(ə)l/"
 		},
 		{
 			"left": "",
 			"middle": "aborted",
 			"right": "babies",
 			"meaning": "流产的",
-			"phonogram": "[əˈbɔːtɪd]"
+			"phonogram": "/əˈbɔːt/"
 		},
 		{
 			"left": "",
 			"middle": "abort",
 			"right": "her travelling plan",
 			"meaning": "终止",
-			"phonogram": "[əˈbɔːrt]"
+			"phonogram": "/əˈbɔːt/"
 		},
 		{
 			"left": "an",
 			"middle": "abortive",
 			"right": "plan",
 			"meaning": "失败的",
-			"phonogram": "[əˈbɔːrtɪv]"
+			"phonogram": "/əˈbɔːtɪv/"
 		},
 		{
 			"left": "",
 			"middle": "abound",
 			"right": "with confidence",
 			"meaning": "充满",
-			"phonogram": "[əˈbaʊnd]"
+			"phonogram": "/əˈbaʊnd/"
 		},
 		{
 			"left": "",
 			"middle": "abundant",
 			"right": "cash",
 			"meaning": "充足的",
-			"phonogram": "[əˈbʌndənt]"
+			"phonogram": "/əˈbʌnd(ə)nt/"
 		}
 	],
 	"Group4": [
@@ -214,77 +214,77 @@
 			"middle": "aboveboard",
 			"right": "business",
 			"meaning": "正大光明的",
-			"phonogram": "[əˈbʌvˌbɔːrd]"
+			"phonogram": "/əˌbʌv ˈbɔːd/"
 		},
 		{
 			"left": "",
 			"middle": "abrade",
 			"right": "her skin",
 			"meaning": "擦伤",
-			"phonogram": "[əˈbreɪd]"
+			"phonogram": "/əˈbreɪd/"
 		},
 		{
 			"left": "his",
 			"middle": "abrasive",
 			"right": "managing style",
 			"meaning": "粗暴的",
-			"phonogram": "[əˈbreɪsɪv]"
+			"phonogram": "/əˈbreɪsɪv/"
 		},
 		{
 			"left": "the",
 			"middle": "abrasive",
 			"right": "surface",
 			"meaning": "粗糙的",
-			"phonogram": "[əˈbreɪsɪv]"
+			"phonogram": "/əˈbreɪsɪv/"
 		},
 		{
 			"left": "walk",
 			"middle": "abreast",
 			"right": "",
 			"meaning": "齐头",
-			"phonogram": "[əˈbrest]"
+			"phonogram": "/əˈbrɛst/"
 		},
 		{
 			"left": "",
 			"middle": "abridged",
 			"right": "books",
 			"meaning": "删减的",
-			"phonogram": "[əˈbrɪdʒd]"
+			"phonogram": "/əˈbrɪdʒd/"
 		},
 		{
 			"left": "",
 			"middle": "abrogate",
 			"right": "a law",
 			"meaning": "废除",
-			"phonogram": "[ˈæbrəɡeɪt]"
+			"phonogram": "/ˈabrəɡeɪt/"
 		},
 		{
 			"left": "",
 			"middle": "abrupt",
 			"right": "changes of weather",
 			"meaning": "突然",
-			"phonogram": "[əˈbrʌpt]"
+			"phonogram": "/əˈbrʌpt/"
 		},
 		{
 			"left": "",
 			"middle": "absconded",
 			"right": "prisoners",
 			"meaning": "潜逃的",
-			"phonogram": "[əbˈskɑːnd]"
+			"phonogram": "/əbˈskɒnd,abˈskɒnd/"
 		},
 		{
 			"left": "",
 			"middle": "absent",
 			"right": "from school",
 			"meaning": "不在",
-			"phonogram": "[ˈæbsənt]"
+			"phonogram": "/ˈabs(ə)nt/"
 		},
 		{
 			"left": "his",
 			"middle": "absent",
 			"right": "mind",
 			"meaning": "心不在焉",
-			"phonogram": "[ˈæbsənt]"
+			"phonogram": "/ˈabs(ə)nt/"
 		}
 	],
 	"Group5": [
@@ -293,49 +293,49 @@
 			"middle": "absolutism",
 			"right": "",
 			"meaning": "专权",
-			"phonogram": "[ˈæbsəluːtɪzəm]"
+			"phonogram": "/ˈabsəluːtɪz(ə)m/"
 		},
 		{
 			"left": "",
 			"middle": "absolve",
 			"right": "the criminals",
 			"meaning": "赦免",
-			"phonogram": "[əbˈzɑːlv]"
+			"phonogram": "/əbˈzɒlv/"
 		},
 		{
 			"left": "",
 			"middle": "absorb",
 			"right": "water",
 			"meaning": "吸",
-			"phonogram": "[əbˈzɔːrb]"
+			"phonogram": "/əbˈzɔːb,əbˈsɔːb/"
 		},
 		{
 			"left": "cannot",
 			"middle": "absorb",
 			"right": "those costs",
 			"meaning": "承受",
-			"phonogram": "[əbˈzɔːrb]"
+			"phonogram": "/əbˈzɔːb,əbˈsɔːb/"
 		},
 		{
 			"left": "an",
 			"middle": "absorbing",
 			"right": "story",
 			"meaning": "吸引人的",
-			"phonogram": "[əbˈzɔːrbɪŋ]"
+			"phonogram": "/əbˈzɔːbɪŋ,əbˈsɔːbɪŋ/"
 		},
 		{
 			"left": "",
 			"middle": "abstain",
 			"right": "from smoke",
 			"meaning": "戒掉",
-			"phonogram": "[əbˈsteɪn]"
+			"phonogram": "/əbˈsteɪn/"
 		},
 		{
 			"left": "her",
 			"middle": "abstemious",
 			"right": "diets",
 			"meaning": "节制的",
-			"phonogram": "[əbˈstiːmiəs]"
+			"phonogram": "/əbˈstiːmɪəs/"
 		}
 	],
 	"Group6": [
@@ -344,70 +344,70 @@
 			"middle": "abstinence",
 			"right": "from alcohol",
 			"meaning": "戒",
-			"phonogram": "[ˈæbstɪnəns]"
+			"phonogram": "/ˈabstɪnəns/"
 		},
 		{
 			"left": "",
 			"middle": "abstract",
 			"right": "concepts",
 			"meaning": "抽象的",
-			"phonogram": "[ˈæbstrækt]"
+			"phonogram": "/ˈabstrakt/"
 		},
 		{
 			"left": "",
 			"middle": "abstract",
 			"right": "water from the well",
 			"meaning": "抽",
-			"phonogram": "[ˈæbstrækt]"
+			"phonogram": "/əbˈstrakt/"
 		},
 		{
 			"left": "",
 			"middle": "abstraction",
 			"right": "in class",
 			"meaning": "走神",
-			"phonogram": "[æbˈstrækʃn]"
+			"phonogram": "/əbˈstrakʃ(ə)n/"
 		},
 		{
 			"left": "",
 			"middle": "abstruse",
 			"right": "math problems",
 			"meaning": "难懂的",
-			"phonogram": "[əbˈstruːs]"
+			"phonogram": "/əbˈstruːs/"
 		},
 		{
 			"left": "his",
 			"middle": "absurd",
 			"right": "jokes",
 			"meaning": "荒谬的",
-			"phonogram": "[əbˈsɜːrd]"
+			"phonogram": "/əbˈsəːd/"
 		},
 		{
 			"left": "child",
 			"middle": "abuse",
 			"right": "",
 			"meaning": "虐待",
-			"phonogram": "[əˈbjuːs]"
+			"phonogram": "/əˈbjuːz/"
 		},
 		{
 			"left": "",
 			"middle": "abusing",
 			"right": "language",
 			"meaning": "辱骂的",
-			"phonogram": "[əˈbjuːzɪŋ]"
+			"phonogram": "/əˈbjuːz/"
 		},
 		{
 			"left": "drug",
 			"middle": "abuse",
 			"right": "",
 			"meaning": "滥用",
-			"phonogram": "[əˈbjuːs]"
+			"phonogram": "/əˈbjuːz/"
 		},
 		{
 			"left": "her",
 			"middle": "abusive",
 			"right": "language",
 			"meaning": "骂人的",
-			"phonogram": "[əˈbjuːsɪv]"
+			"phonogram": "/əˈbjuːsɪv/"
 		}
 	],
 	"Group7": [
@@ -416,63 +416,63 @@
 			"middle": "abutting",
 			"right": "neighbor",
 			"meaning": "邻近的",
-			"phonogram": "[əˈbʌtɪŋ]"
+			"phonogram": "/əˈbʌt/"
 		},
 		{
 			"left": "in",
 			"middle": "abysmal",
 			"right": "poverty",
 			"meaning": "极度的",
-			"phonogram": "[əˈbɪzməl]"
+			"phonogram": "/əˈbɪzm(ə)l/"
 		},
 		{
 			"left": "a dark",
 			"middle": "abyss",
 			"right": "",
 			"meaning": "深渊",
-			"phonogram": "[əˈbɪs]"
+			"phonogram": "/əˈbɪs/"
 		},
 		{
 			"left": "the open-minded",
 			"middle": "academia",
 			"right": "",
 			"meaning": "学术界",
-			"phonogram": "[ˌækəˈdiːmiə]"
+			"phonogram": "/ˌakəˈdiːmɪə/"
 		},
 		{
 			"left": "obey the",
 			"middle": "academic",
 			"right": "authority",
 			"meaning": "学术的",
-			"phonogram": "[ˌækəˈdemɪk]"
+			"phonogram": "/akəˈdɛmɪk/"
 		},
 		{
 			"left": "",
 			"middle": "accede",
 			"right": "to her demand",
 			"meaning": "答应",
-			"phonogram": "[əkˈsiːd]"
+			"phonogram": "/əkˈsiːd/"
 		},
 		{
 			"left": "",
 			"middle": "accelerating",
 			"right": "economic growth",
 			"meaning": "加速的",
-			"phonogram": "[əkˈseləreɪtɪŋ]"
+			"phonogram": "/əkˈsɛləreɪt/"
 		},
 		{
 			"left": "",
 			"middle": "accentuate",
 			"right": "the importance of communication skills",
 			"meaning": "强调",
-			"phonogram": "[əkˈsentʃueɪt]"
+			"phonogram": "/əkˈsɛntʃʊeɪt,əkˈsɛntjʊeɪt/"
 		},
 		{
 			"left": "have free",
 			"middle": "access",
 			"right": "to the library",
 			"meaning": "进入",
-			"phonogram": "[ˈækses]"
+			"phonogram": "/ˈaksɛs/"
 		}
 	]
 }

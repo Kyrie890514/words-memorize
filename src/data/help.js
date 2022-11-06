@@ -31,7 +31,7 @@ string.split('|').map(v => v.trim()).reduce((pre, cur, index) => {
 			break
 		case 3:
 			pre.meaning = cur
-			pre.phonogram = ''
+			pre.phonogram = '//'
 			result[group].push(pre)
 			break
 	}
