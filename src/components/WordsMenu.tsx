@@ -43,6 +43,8 @@ export default defineComponent({
 		const { menu, visible, lists, currentList, currentGroup, changeCurrent } = this
 		return (
 			<div class='menu' style={`display:${visible ? 'flex' : 'none'}`}>
+				<div class={currentList === 'Random' && currentGroup === 'Random' ? 'list highlight' : 'list'}
+					onClick={() => changeCurrent('Random', 'Random')}>Random</div>
 				{Object.keys(menu).map(list => (
 					<>
 						<div class='list' onClick={() => { lists[list] = !lists[list] }}>{list}</div>

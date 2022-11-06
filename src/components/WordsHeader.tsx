@@ -52,8 +52,16 @@ export default defineComponent({
 			<div class='header'>
 				<div class='header-wrapper'>
 					<div class='title' onClick={changeMenuVisible}>
-						<span>{currentList}</span>
-						<span>{currentGroup}</span>
+						{
+							currentList === 'Random'
+								? <span>Random</span>
+								: (
+									<>
+										<span>{currentList}</span>
+										<span>{currentGroup}</span>
+									</>
+								)
+						}
 					</div>
 					<div class='toggle'>
 						<span class={condition.isShowWordOnly && 'is-toggle'} onClick={() => changeCondition('isShowWordOnly')}>W</span>

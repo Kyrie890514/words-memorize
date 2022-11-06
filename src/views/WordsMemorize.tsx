@@ -1,18 +1,24 @@
-import { computed, watch, defineComponent, reactive } from 'vue'
+import { watch, defineComponent, reactive } from 'vue'
 import { lists } from '../data/index'
 import { ref } from 'vue'
 import WordsHeader from '../components/WordsHeader'
 import WordsWrapper from '../components/WordsWrapper'
-import type { Menu, Condition } from '../data/type'
+import type { Menu, Condition, Word } from '../data/type'
 import '../style/WordsMemorize.scss'
 
 export default defineComponent({
 	name: 'WordsMemorize',
 	setup() {
 		const menu: Menu = {}
+		const words: { [key: string]: Word } = {}
 		for (const list of Object.keys(lists)) {
 			menu[list] = Object.keys(lists[list])
+			for (const group of Object.keys(lists[list])) {
+				for (const word of lists[list][group])
+					words[word.middle] = word
+			}
 		}
+		const wordKeys = Object.keys(words)
 
 		const currentList = ref('')
 		const currentGroup = ref('')
@@ -24,12 +30,32 @@ export default defineComponent({
 		})
 		currentList.value = localStorage.currentList || Object.keys(menu)[0]
 		currentGroup.value = localStorage.currentGroup || menu[currentList.value][0]
+
+		const showWords = ref<Word[]>([])
+		const getRandomWords = () => {
+			const length = wordKeys.length
+			if (length > 10) {
+				const resultKeys: Set<number> = new Set()
+				while (resultKeys.size < 10) {
+					resultKeys.add(Math.floor(Math.random() * length))
+				}
+				return Array.from(resultKeys, wordKey => words[wordKeys[wordKey]])
+			} else {
+				return Object.values(words)
+			}
+		}
+		const changeWords = () => {
+			showWords.value = currentList.value === 'Random'
+				? getRandomWords()
+				: lists[currentList.value][currentGroup.value]
+		}
+		changeWords()
+
 		const changeCurrent = (list: string, group: string) => {
 			currentList.value = list
 			currentGroup.value = group
+			changeWords()
 		}
-
-		const words = computed(() => lists[currentList.value][currentGroup.value])
 
 		const condition: Condition = reactive({
 			isShowWordOnly: false,
@@ -45,20 +71,20 @@ export default defineComponent({
 		function reload() { key.value++ }
 
 		return {
-			menu, currentList, currentGroup, changeCurrent, words,
+			menu, currentList, currentGroup, changeCurrent, showWords,
 			condition, changeCondition, reload, key
 		}
 	},
 	render() {
 		const {
-			menu, currentList, currentGroup, changeCurrent, words,
+			menu, currentList, currentGroup, changeCurrent, showWords,
 			condition, changeCondition, reload, key
 		} = this
 		return (
-			<div class='words-memorize'>
+			<div class='-memorize'>
 				<WordsHeader menu={menu} currentList={currentList} currentGroup={currentGroup} onCurrentChange={changeCurrent}
 					condition={condition} onConditionChange={changeCondition} onReload={reload} />
-				<WordsWrapper key={key} words={words} condition={condition} />
+				<WordsWrapper key={key} words={showWords} condition={condition} />
 			</div >
 		)
 	}
