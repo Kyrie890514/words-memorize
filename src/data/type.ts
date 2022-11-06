@@ -1,5 +1,3 @@
-export interface Content { [key: string]: string[] }
-
 export interface Word {
 	left: string
 	middle: string
@@ -10,4 +8,13 @@ export interface Word {
 
 export interface List {
 	[key: string]: Word[]
+}
+
+export interface Menu { [key: string]: string[] }
+
+export interface Condition {
+	isShowWordOnly: boolean
+	isShowAllAnswer: boolean
+	isShowAllMeaning: boolean
+	isShowAllPhonogram: boolean
 }

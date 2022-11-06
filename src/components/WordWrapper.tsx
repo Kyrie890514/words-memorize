@@ -1,4 +1,4 @@
-import type { Word } from '@/data/type'
+import type { Condition, Word } from '@/data/type'
 import { defineComponent, watch, ref, type PropType } from 'vue'
 import '../style/WordWrapper.scss'
 
@@ -9,20 +9,8 @@ export default defineComponent({
 			type: Object as PropType<Word>,
 			required: true
 		},
-		isShowWordOnly: {
-			type: Boolean,
-			required: true
-		},
-		isShowAllAnswer: {
-			type: Boolean,
-			required: true
-		},
-		isShowAllMeaning: {
-			type: Boolean,
-			required: true
-		},
-		isShowAllPhonogram: {
-			type: Boolean,
+		condition: {
+			type: Object as PropType<Condition>,
 			required: true
 		}
 	},
@@ -30,45 +18,54 @@ export default defineComponent({
 		const isShowAnswer = ref(false)
 		const isShowMeaning = ref(false)
 		const isShowPhonogram = ref(false)
-		function changeIsShowAnswer(value?: boolean) {
-			!props.isShowAllAnswer && (isShowAnswer.value = value ?? !isShowAnswer.value)
+		function changeIsShowAnswer() {
+			!props.condition.isShowAllAnswer && (isShowAnswer.value = !isShowAnswer.value)
 		}
-		function changeIsShowMeaning(value?: boolean) {
-			!props.isShowAllMeaning && (isShowMeaning.value = value ?? !isShowMeaning.value)
+		function changeIsShowMeaning() {
+			!props.condition.isShowAllMeaning && (isShowMeaning.value = !isShowMeaning.value)
 		}
-		function changeIsShowPhonogram(value?: boolean) {
-			isShowPhonogram.value = value ?? !isShowPhonogram.value
+		function changeIsShowPhonogram() {
+			!props.condition.isShowAllPhonogram && (isShowPhonogram.value = !isShowPhonogram.value)
 		}
+
 		watch(() => props.word.middle, () => {
 			isShowAnswer.value = false
 			isShowMeaning.value = false
+			isShowPhonogram.value = false
 		})
-		return { isShowAnswer, changeIsShowAnswer, isShowMeaning, changeIsShowMeaning, isShowPhonogram, changeIsShowPhonogram }
+		return { isShowAnswer, isShowMeaning, isShowPhonogram, changeIsShowAnswer, changeIsShowMeaning, changeIsShowPhonogram }
 	},
 	render() {
-		const { word, isShowAnswer, changeIsShowAnswer, isShowMeaning, changeIsShowMeaning, isShowPhonogram, changeIsShowPhonogram, isShowWordOnly, isShowAllAnswer, isShowAllMeaning, isShowAllPhonogram } = this
+		const {
+			word, condition,
+			isShowAnswer, isShowMeaning, isShowPhonogram, changeIsShowAnswer, changeIsShowMeaning, changeIsShowPhonogram
+		} = this
 		return (
 			<div class='word-wrapper'>
 				<div class='top-wrapper'>
-					{!isShowWordOnly && word.left && <span class='left'>{word.left}&nbsp;</span>}
+					{!condition.isShowWordOnly && word.left && (
+						<span class='left'>{word.left}&nbsp;</span>
+					)}
 					{
-						isShowAllAnswer || isShowAnswer
-							? <span class='answer show' onClick={() => changeIsShowAnswer()}>{word.middle}&nbsp;</span>
-							: <span class='answer hidden' onClick={() => changeIsShowAnswer()}>answer&nbsp;</span>
+						condition.isShowAllAnswer || isShowAnswer
+							? <span class='answer show' onClick={() => changeIsShowAnswer()}>{word.middle}</span>
+							: <span class='answer hidden' onClick={() => changeIsShowAnswer()}>answer</span>
 					}
-					{!isShowWordOnly && word.right && <span class='right'>{word.right}</span>}
+					{!condition.isShowWordOnly && word.right && (
+						<span class='right'>&nbsp;{word.right}</span>
+					)}
 				</div>
 				<div class='bottom-wrapper'>
 					<div class='left-wrapper' onClick={() => changeIsShowPhonogram()}>
 						{
-							isShowAllPhonogram || isShowPhonogram
+							condition.isShowAllPhonogram || isShowPhonogram
 								? <span class='phonogram show'>{word.phonogram}</span>
 								: <span class='phonogram hidden'>phonogram</span>
 						}
 					</div>
 					<div class='right-wrapper' onClick={() => changeIsShowMeaning()}>
 						{
-							isShowAllMeaning || isShowMeaning
+							condition.isShowAllMeaning || isShowMeaning
 								? <span class='meaning show'>{word.meaning}</span>
 								: <span class='meaning hidden'>meaning</span>
 						}

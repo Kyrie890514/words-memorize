@@ -1,88 +1,43 @@
-import { defineComponent, ref, Teleport, type PropType } from 'vue'
-import type { Content } from '../data/type'
-import WordsContent from './WordsContent'
+import { defineComponent, ref, type PropType } from 'vue'
+import type { Menu } from '../data/type'
 import '../style/WordsMenu.scss'
 
 export default defineComponent({
 	name: 'WordsMenu',
 	props: {
-		content: {
-			type: Object as PropType<Content>,
-			required: true
-		},
-		currentList: {
-			type: String,
-			required: true
-		},
-		currentGroup: {
-			type: String,
-			required: true
-		},
-		isShowWordOnly: {
-			type: Boolean,
-			required: true
-		},
-		isShowAllAnswer: {
-			type: Boolean,
-			required: true
-		},
-		isShowAllMeaning: {
-			type: Boolean,
-			required: true
-		},
-		isShowAllPhonogram: {
-			type: Boolean,
+		menu: {
+			type: Object as PropType<Menu>,
 			required: true
 		}
 	},
-	emits: ['currentChange', 'isShowWordOnlyChange', 'isShowAllAnswerChange', 'isShowAllMeaningChange', 'isShowAllPhonogramChange', 'reload'],
-	setup(props, { emit }) {
-		function changeCurrent(list: string, group?: string) {
+	emits: ['currentChange'],
+	setup(_, { emit }) {
+		const visible = ref(false)
+		const changeVisible = () => {
+			visible.value = !visible.value
+		}
+
+		const changeCurrent = (list: string, group: string) => {
 			emit('currentChange', list, group)
+			changeVisible()
 		}
-		const wordsContent = ref<InstanceType<typeof WordsContent> | null>(null)
-		function changeIsShow() {
-			wordsContent.value?.changeIsShow()
-		}
-		function changeIsShowWordOnly() {
-			emit('isShowWordOnlyChange')
-		}
-		function changeisShowAllAnswer() {
-			emit('isShowAllAnswerChange')
-		}
-		function changeIsShowAllMeaning() {
-			emit('isShowAllMeaningChange')
-		}
-		function changeIsShowAllPhonogram() {
-			emit('isShowAllPhonogramChange')
-		}
-		function reload() {
-			emit('reload')
-		}
-		return { changeIsShow, changeCurrent, wordsContent, changeIsShowWordOnly, changeisShowAllAnswer, changeIsShowAllMeaning, changeIsShowAllPhonogram, reload }
+
+		return { visible, changeVisible, changeCurrent }
 	},
 	render() {
-		const { changeIsShow, currentList, currentGroup, content, changeCurrent, changeIsShowWordOnly, changeisShowAllAnswer, changeIsShowAllMeaning, changeIsShowAllPhonogram, isShowWordOnly, isShowAllAnswer, isShowAllMeaning, isShowAllPhonogram, reload } = this
+		const { menu, visible, changeCurrent } = this
 		return (
-			<div class='menu'>
-				<div class='menu-wrapper'>
-					<div>
-						<span onClick={changeIsShow}>Menu</span>
-					</div>
-					<div class='title' onClick={reload}>
-						<span>{currentList}</span>
-						<span>{currentGroup}</span>
-					</div>
-					<div class='toggle'>
-						<span class={isShowWordOnly && 'is-toggle'} onClick={changeIsShowWordOnly}>W</span>
-						<span class={isShowAllAnswer && 'is-toggle'} onClick={changeisShowAllAnswer}>A</span>
-						<span class={isShowAllMeaning && 'is-toggle'} onClick={changeIsShowAllMeaning}>M</span>
-						<span class={isShowAllPhonogram && 'is-toggle'} onClick={changeIsShowAllPhonogram}>P</span>
-					</div>
-				</div>
-				<Teleport to='#app'>
-					<WordsContent ref='wordsContent' content={content} onCurrentChange={changeCurrent} />
-				</Teleport>
+			<div class='menu' style={`display:${visible ? 'flex' : 'none'}`}>
+				{Object.keys(menu).map(list => (
+					<>
+						<div class='list' onClick={() => { }}>{list}</div>
+						{
+							menu[list].map(group => (
+								<div class='group' onClick={() => changeCurrent(list, group)}>{group}</div>
+							))
+						}
+					</>
+				))}
 			</div>
 		)
 	}
