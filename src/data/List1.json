@@ -474,5 +474,121 @@
 			"meaning": "进入",
 			"phonogram": "/ˈaksɛs/"
 		}
+	],
+	"Group8": [
+		{
+			"left": "set",
+			"middle": "accessible",
+			"right": "goals",
+			"meaning": "可达成的",
+			"phonogram": "/əkˈsɛsɪb(ə)l/"
+		},
+		{
+			"left": "an",
+			"middle": "accessible",
+			"right": "theater",
+			"meaning": "通俗易懂的",
+			"phonogram": "/əkˈsɛsɪb(ə)l/"
+		},
+		{
+			"left": "the",
+			"middle": "accessories",
+			"right": "of a mobile phone",
+			"meaning": "附件",
+			"phonogram": "/əkˈsɛs(ə)ri/"
+		},
+		{
+			"left": "",
+			"middle": "acclaim",
+			"right": "his achievements",
+			"meaning": "称赞",
+			"phonogram": "/əˈkleɪm/"
+		},
+		{
+			"left": "",
+			"middle": "acclimatize",
+			"right": "to rainy weather",
+			"meaning": "习惯",
+			"phonogram": "/əˈklaɪmətaɪz/"
+		},
+		{
+			"left": "win global",
+			"middle": "accolade",
+			"right": "",
+			"meaning": "赞誉",
+			"phonogram": "/ˈakəleɪd,ˌakəˈleɪd/"
+		}
+	],
+	"Group9": [
+		{
+			"left": "",
+			"middle": "accommodate",
+			"right": "her guests",
+			"meaning": "提供住宿",
+			"phonogram": "/əˈkɒmədeɪt/"
+		},
+		{
+			"left": "",
+			"middle": "accommodate",
+			"right": "local cultures",
+			"meaning": "顾及",
+			"phonogram": "/əˈkɒmədeɪt/"
+		},
+		{
+			"left": "",
+			"middle": "accommodate",
+			"right": "to the diet in the South",
+			"meaning": "适应",
+			"phonogram": "/əˈkɒmədeɪt/"
+		},
+		{
+			"left": "an",
+			"middle": "accommodating",
+			"right": "manager",
+			"meaning": "肯通融的",
+			"phonogram": "/əˈkɒmədeɪtɪŋ/"
+		},
+		{
+			"left": "",
+			"middle": "accompany",
+			"right": "his wife",
+			"meaning": "陪伴",
+			"phonogram": "/əˈkʌmpəni/"
+		},
+		{
+			"left": "",
+			"middle": "accompany",
+			"right": "her song",
+			"meaning": "伴奏",
+			"phonogram": "/əˈkʌmpəni/"
+		},
+		{
+			"left": "piano",
+			"middle": "accompaniment",
+			"right": "",
+			"meaning": "伴奏",
+			"phonogram": "/əˈkʌmp(ə)nɪm(ə)nt/"
+		},
+		{
+			"left": "the killer's",
+			"middle": "accomplice",
+			"right": "",
+			"meaning": "同谋",
+			"phonogram": "/əˈkʌmplɪs,əˈkɒmplɪs/"
+		},
+		{
+			"left": "",
+			"middle": "accomplish",
+			"right": "a miracle",
+			"meaning": "实现",
+			"phonogram": "/əˈkʌmplɪʃ,əˈkɒmplɪʃ/"
+		},
+		{
+			"left": "an",
+			"middle": "accomplished",
+			"right": "painter",
+			"meaning": "成就卓著的",
+			"phonogram": "/əˈkʌmplɪʃt,əˈkɒmplɪʃt/"
+		}
 	]
 }

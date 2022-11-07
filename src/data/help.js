@@ -1,17 +1,16 @@
-const group = 'Group6'
+const group = 'Group9'
 
 const string = `
-
-total|abstinence|from alcohol|戒|
-|abstract|concepts|抽象的|
-|abstract|water from the well|抽|
-|abstraction|in class|走神|
-|abstruse|math problems|难懂的|
-his|absurd|jokes|荒谬的|
-child|abuse||虐待|
-|abusing|language|辱骂的|
-drug|abuse||滥用|
-her|abusive|language|骂人的|
+|accommodate|her guests|提供住宿|
+|accommodate|local cultures|顾及|
+|accommodate|to the diet in the South|适应|
+an |accommodating|manager|肯通融的|
+|accompany|his wife|陪伴|
+|accompany|her song|伴奏|
+piano|accompaniment||伴奏|
+the killer's |accomplice||同谋|
+|accomplish|a miracle|实现|
+an | accomplished|painter|成就卓著的
 `
 
 const result = { [group]: [] }
