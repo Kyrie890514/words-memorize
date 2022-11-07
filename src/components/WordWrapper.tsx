@@ -1,5 +1,5 @@
 import type { Condition, Word } from '@/data/type'
-import { defineComponent, watch, ref, type PropType } from 'vue'
+import { defineComponent, ref, type PropType } from 'vue'
 import '../style/WordWrapper.scss'
 
 export default defineComponent({
@@ -27,12 +27,6 @@ export default defineComponent({
 		function changeIsShowPhonogram() {
 			!props.condition.isShowAllPhonogram && (isShowPhonogram.value = !isShowPhonogram.value)
 		}
-
-		watch(() => props.word.middle, () => {
-			isShowAnswer.value = false
-			isShowMeaning.value = false
-			isShowPhonogram.value = false
-		})
 		return { isShowAnswer, isShowMeaning, isShowPhonogram, changeIsShowAnswer, changeIsShowMeaning, changeIsShowPhonogram }
 	},
 	render() {

@@ -1,4 +1,4 @@
-import { defineComponent, ref, Teleport, type PropType } from 'vue'
+import { defineComponent, nextTick, ref, Teleport, type PropType } from 'vue'
 import type { Condition, Menu } from '../data/type'
 import WordsMenu from './WordsMenu'
 import '../style/WordsHeader.scss'
@@ -35,10 +35,16 @@ export default defineComponent({
 		}
 
 		const isSearching = ref(false)
+		const searchInput = ref<HTMLInputElement | null>(null)
 		const changeIsSearching = () => {
 			isSearching.value = !isSearching.value
-			!isSearching.value && emit('currentChange', props.currentList, props.currentGroup)
-
+			if (isSearching.value) {
+				nextTick(() => {
+					searchInput.value?.focus()
+				})
+			} else {
+				emit('currentChange', props.currentList, props.currentGroup)
+			}
 		}
 		const searchText = ref('')
 		const changeSearchText = (value: string) => {
@@ -55,7 +61,7 @@ export default defineComponent({
 		}
 		return {
 			changeCurrent, wordsMenu, changeMenuVisible,
-			isSearching, changeIsSearching, changeSearchText,
+			isSearching, searchInput, changeIsSearching, changeSearchText,
 			changeCondition, reload
 		}
 	},
@@ -73,7 +79,7 @@ export default defineComponent({
 						isSearching
 							? (
 								<div class='title' >
-									<input onChange={e => changeSearchText((e.target as HTMLInputElement).value)} />
+									<input ref='searchInput' onChange={e => changeSearchText((e.target as HTMLInputElement).value)} />
 								</div>
 							)
 							: (

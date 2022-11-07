@@ -59,6 +59,7 @@ export default defineComponent({
 			currentList.value = list
 			currentGroup.value = group
 			changeWords()
+			reload()
 		}
 
 		const condition = reactive<Condition>({
