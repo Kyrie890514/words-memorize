@@ -1,16 +1,24 @@
-const group = 'Group9'
+const group = 'Group11'
 
 const string = `
-|accommodate|her guests|提供住宿|
-|accommodate|local cultures|顾及|
-|accommodate|to the diet in the South|适应|
-an |accommodating|manager|肯通融的|
-|accompany|his wife|陪伴|
-|accompany|her song|伴奏|
-piano|accompaniment||伴奏|
-the killer's |accomplice||同谋|
-|accomplish|a miracle|实现|
-an | accomplished|painter|成就卓著的
+set up a business on her own|account||独立|
+|account for|half of health care spending|占了|
+|account for|his mistake|负责|
+be|accountable|to their customers|负责|
+get the |accountant|license|会计师|
+an internationally|accredited|business school|认证的|
+|accretion|of economic interests|增长|
+his wealth|accrues||增加|
+|accumulate|wealth|积累|
+|accuse|the president of media interference|谴责
+
+
+
+
+
+
+
+
 `
 
 const result = { [group]: [] }

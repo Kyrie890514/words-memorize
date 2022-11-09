@@ -590,5 +590,149 @@
 			"meaning": "成就卓著的",
 			"phonogram": "/əˈkʌmplɪʃt,əˈkɒmplɪʃt/"
 		}
+	],
+	"Group10": [
+		{
+			"left": "respect",
+			"middle": "accorded",
+			"right": "to the hero",
+			"meaning": "给予",
+			"phonogram": "/əˈkɔːd/"
+		},
+		{
+			"left": "under the peace",
+			"middle": "accord",
+			"right": "",
+			"meaning": "协议",
+			"phonogram": "/əˈkɔːd/"
+		},
+		{
+			"left": "",
+			"middle": "accord",
+			"right": "with the fact",
+			"meaning": "相符",
+			"phonogram": "/əˈkɔːd/"
+		},
+		{
+			"left": "in",
+			"middle": "accordance",
+			"right": "with the rules",
+			"meaning": "根据",
+			"phonogram": "/əˈkɔːd(ə)ns/"
+		},
+		{
+			"left": "react",
+			"middle": "accordingly",
+			"right": "to her feeling",
+			"meaning": "相应地",
+			"phonogram": "/əˈkɔːdɪŋli/"
+		},
+		{
+			"left": "",
+			"middle": "accost",
+			"right": "girls in the bar",
+			"meaning": "搭讪",
+			"phonogram": "/əˈkɒst/"
+		},
+		{
+			"left": "her",
+			"middle": "account",
+			"right": "of the accident",
+			"meaning": "描述",
+			"phonogram": "/əˈkaʊnt/"
+		},
+		{
+			"left": "take",
+			"middle": "account",
+			"right": "of social factors",
+			"meaning": "考虑",
+			"phonogram": "/əˈkaʊnt/"
+		},
+		{
+			"left": "a scientific",
+			"middle": "account",
+			"right": "of human behavior",
+			"meaning": "解释",
+			"phonogram": "/əˈkaʊnt/"
+		},
+		{
+			"left": "on",
+			"middle": "account",
+			"right": "of her illness",
+			"meaning": "由于",
+			"phonogram": "/əˈkaʊnt/"
+		}
+	],
+	"Group11": [
+		{
+			"left": "set up a business on her own",
+			"middle": "account",
+			"right": "",
+			"meaning": "独立",
+			"phonogram": "/əˈkaʊnt/"
+		},
+		{
+			"left": "",
+			"middle": "account for",
+			"right": "half of health care spending",
+			"meaning": "占了",
+			"phonogram": "/əˈkaʊnt/"
+		},
+		{
+			"left": "",
+			"middle": "account for",
+			"right": "his mistake",
+			"meaning": "负责",
+			"phonogram": "/əˈkaʊnt/"
+		},
+		{
+			"left": "be",
+			"middle": "accountable",
+			"right": "to their customers",
+			"meaning": "负责",
+			"phonogram": "/əˈkaʊntəb(ə)l/"
+		},
+		{
+			"left": "get the",
+			"middle": "accountant",
+			"right": "license",
+			"meaning": "会计师",
+			"phonogram": "/əˈkaʊnt(ə)nt/"
+		},
+		{
+			"left": "an internationally",
+			"middle": "accredited",
+			"right": "business school",
+			"meaning": "认证的",
+			"phonogram": "/əˈkrɛdɪtɪd/"
+		},
+		{
+			"left": "",
+			"middle": "accretion",
+			"right": "of economic interests",
+			"meaning": "增长",
+			"phonogram": "/əˈkriːʃ(ə)n/"
+		},
+		{
+			"left": "his wealth",
+			"middle": "accrues",
+			"right": "",
+			"meaning": "增加",
+			"phonogram": "/əˈkruː/"
+		},
+		{
+			"left": "",
+			"middle": "accumulate",
+			"right": "wealth",
+			"meaning": "积累",
+			"phonogram": "/əˈkjuːmjʊleɪt/"
+		},
+		{
+			"left": "",
+			"middle": "accuse",
+			"right": "the president of media interference",
+			"meaning": "谴责",
+			"phonogram": "/əˈkjuːz/"
+		}
 	]
 }
