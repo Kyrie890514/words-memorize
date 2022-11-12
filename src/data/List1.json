@@ -48,9 +48,7 @@
 			"right": "name",
 			"meaning": "缩写",
 			"phonogram": "/əˈbriːvɪeɪtɪd/"
-		}
-	],
-	"Group2": [
+		},
 		{
 			"left": "the",
 			"middle": "abdicated",
@@ -71,7 +69,9 @@
 			"right": "reactions of youths",
 			"meaning": "异常的",
 			"phonogram": "/əˈbɛr(ə)nt/"
-		},
+		}
+	],
+	"Group2": [
 		{
 			"left": "",
 			"middle": "abet",
@@ -127,9 +127,7 @@
 			"right": "fate",
 			"meaning": "悲惨的",
 			"phonogram": "/ˈabdʒɛkt/"
-		}
-	],
-	"Group3": [
+		},
 		{
 			"left": "",
 			"middle": "abjure",
@@ -143,7 +141,9 @@
 			"right": "the resultless love",
 			"meaning": "放弃",
 			"phonogram": "/ˈabnɪɡeɪt/"
-		},
+		}
+	],
+	"Group3": [
 		{
 			"left": "",
 			"middle": "abnormal",
@@ -206,16 +206,16 @@
 			"right": "cash",
 			"meaning": "充足的",
 			"phonogram": "/əˈbʌnd(ə)nt/"
-		}
-	],
-	"Group4": [
+		},
 		{
 			"left": "her",
 			"middle": "aboveboard",
 			"right": "business",
 			"meaning": "正大光明的",
 			"phonogram": "/əˌbʌv ˈbɔːd/"
-		},
+		}
+	],
+	"Group4": [
 		{
 			"left": "",
 			"middle": "abrade",
@@ -336,9 +336,7 @@
 			"right": "diets",
 			"meaning": "节制的",
 			"phonogram": "/əbˈstiːmɪəs/"
-		}
-	],
-	"Group6": [
+		},
 		{
 			"left": "total",
 			"middle": "abstinence",
@@ -359,7 +357,9 @@
 			"right": "water from the well",
 			"meaning": "抽",
 			"phonogram": "/əbˈstrakt/"
-		},
+		}
+	],
+	"Group6": [
 		{
 			"left": "",
 			"middle": "abstraction",
@@ -408,9 +408,7 @@
 			"right": "language",
 			"meaning": "骂人的",
 			"phonogram": "/əˈbjuːsɪv/"
-		}
-	],
-	"Group7": [
+		},
 		{
 			"left": "our",
 			"middle": "abutting",
@@ -431,7 +429,9 @@
 			"right": "",
 			"meaning": "深渊",
 			"phonogram": "/əˈbɪs/"
-		},
+		}
+	],
+	"Group7": [
 		{
 			"left": "the open-minded",
 			"middle": "academia",
@@ -473,9 +473,7 @@
 			"right": "to the library",
 			"meaning": "进入",
 			"phonogram": "/ˈaksɛs/"
-		}
-	],
-	"Group8": [
+		},
 		{
 			"left": "set",
 			"middle": "accessible",
@@ -503,7 +501,9 @@
 			"right": "his achievements",
 			"meaning": "称赞",
 			"phonogram": "/əˈkleɪm/"
-		},
+		}
+	],
+	"Group8": [
 		{
 			"left": "",
 			"middle": "acclimatize",
@@ -517,9 +517,7 @@
 			"right": "",
 			"meaning": "赞誉",
 			"phonogram": "/ˈakəleɪd,ˌakəˈleɪd/"
-		}
-	],
-	"Group9": [
+		},
 		{
 			"left": "",
 			"middle": "accommodate",
@@ -575,7 +573,9 @@
 			"right": "",
 			"meaning": "同谋",
 			"phonogram": "/əˈkʌmplɪs,əˈkɒmplɪs/"
-		},
+		}
+	],
+	"Group9": [
 		{
 			"left": "",
 			"middle": "accomplish",
@@ -589,9 +589,7 @@
 			"right": "painter",
 			"meaning": "成就卓著的",
 			"phonogram": "/əˈkʌmplɪʃt,əˈkɒmplɪʃt/"
-		}
-	],
-	"Group10": [
+		},
 		{
 			"left": "respect",
 			"middle": "accorded",
@@ -647,7 +645,9 @@
 			"right": "of social factors",
 			"meaning": "考虑",
 			"phonogram": "/əˈkaʊnt/"
-		},
+		}
+	],
+	"Group10": [
 		{
 			"left": "a scientific",
 			"middle": "account",
@@ -661,9 +661,7 @@
 			"right": "of her illness",
 			"meaning": "由于",
 			"phonogram": "/əˈkaʊnt/"
-		}
-	],
-	"Group11": [
+		},
 		{
 			"left": "set up a business on her own",
 			"middle": "account",
@@ -719,7 +717,9 @@
 			"right": "",
 			"meaning": "增加",
 			"phonogram": "/əˈkruː/"
-		},
+		}
+	],
+	"Group11": [
 		{
 			"left": "",
 			"middle": "accumulate",
