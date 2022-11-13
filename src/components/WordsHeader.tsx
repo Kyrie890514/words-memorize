@@ -84,16 +84,8 @@ export default defineComponent({
 							)
 							: (
 								<div class='title' onClick={changeMenuVisible}>
-									{
-										currentList === 'Random'
-											? <span>Random</span>
-											: (
-												<>
-													<span>{currentList}</span>
-													<span>{currentGroup}</span>
-												</>
-											)
-									}
+									<span>{currentList}</span>
+									<span>{currentGroup}</span>
 								</div>
 							)
 					}

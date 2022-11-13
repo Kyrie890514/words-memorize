@@ -47,14 +47,20 @@ export default defineComponent({
 					onClick={() => changeCurrent('Random', 'Random')}>Random</div>
 				{Object.keys(menu).map(list => (
 					<>
-						<div class='list' onClick={() => { lists[list] = !lists[list] }}>{list}</div>
+						<div class='list' onClick={() => lists[list] = !lists[list]}>{list}</div>
 						{
 							lists[list]
 								? (
-									menu[list].map(group => (
-										<div class={currentList === list && currentGroup === group ? 'group highlight' : 'group'}
-											onClick={() => changeCurrent(list, group)}>{group}</div>
-									))
+									<>
+										{
+											menu[list].map(group => (
+												<div class={currentList === list && currentGroup === group ? 'group highlight' : 'group'}
+													onClick={() => changeCurrent(list, group)}>{group}</div>
+											))
+										}
+										<div class={currentList === list && currentGroup === 'Random' ? 'group highlight' : 'group'}
+											onClick={() => changeCurrent(list, 'Random')}>Random</div>
+									</>
 								)
 								: null
 						}

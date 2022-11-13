@@ -33,19 +33,21 @@ export default defineComponent({
 
 		const showWords = ref<Word[]>([])
 		const getRandomWords = () => {
-			const length = wordKeys.length
-			if (length > 10) {
-				const indices: Set<number> = new Set()
-				while (indices.size < 10) {
-					indices.add(Math.floor(Math.random() * length))
-				}
-				return Array.from(indices, index => words[wordKeys[index]])
-			} else {
-				return Object.values(words)
+			const keys = currentList.value === 'Random'
+				? wordKeys
+				: Object.values(lists[currentList.value]).flatMap(words => words.map(word => word.middle))
+
+			const length = keys.length
+			const numbers = [...Array(length).keys()]
+			let i = length
+			while (i > 0 && length - i < 10) {
+				const index = Math.floor(Math.random() * i--);
+				[numbers[index], numbers[i]] = [numbers[i], numbers[index]]
 			}
+			return Array.from(numbers.slice(i), index => words[keys[index]])
 		}
 		const changeWords = () => {
-			showWords.value = currentList.value === 'Random'
+			showWords.value = currentGroup.value === 'Random'
 				? getRandomWords()
 				: lists[currentList.value][currentGroup.value]
 		}
@@ -59,7 +61,7 @@ export default defineComponent({
 			currentList.value = list
 			currentGroup.value = group
 			changeWords()
-			reload()
+			_reload()
 		}
 
 		const condition = reactive<Condition>({
@@ -73,7 +75,11 @@ export default defineComponent({
 		}
 
 		const key = ref(0)
-		const reload = () => { key.value++ }
+		const _reload = () => { key.value++ }
+		const reload = () => {
+			changeWords()
+			_reload()
+		}
 
 		return {
 			menu, currentList, currentGroup, changeCurrent, showWords, search,
