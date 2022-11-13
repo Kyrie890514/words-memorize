@@ -6,11 +6,9 @@ export interface Word {
 	phonogram: string
 }
 
-export interface List {
-	[key: string]: Word[]
-}
+export type List = Record<string, Word[]>
 
-export interface Menu { [key: string]: string[] }
+export type Menu = Record<string, string[]>
 
 export interface Condition {
 	isShowWordOnly: boolean

@@ -10,7 +10,7 @@ export default defineComponent({
 	name: 'WordsMemorize',
 	setup() {
 		const menu: Menu = {}
-		const words: { [key: string]: Word } = {}
+		const words: Record<string, Word> = {}
 		for (const list of Object.keys(lists)) {
 			menu[list] = Object.keys(lists[list])
 			for (const group of Object.keys(lists[list])) {

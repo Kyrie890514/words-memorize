@@ -25,10 +25,10 @@ export default defineComponent({
 			visible.value = !visible.value
 		}
 
-		const lists: { [key: string]: boolean } = reactive({})
+		const listIsExpandedObj: Record<string, boolean> = reactive({})
 		watch(() => props.currentList, () => {
 			for (const list of Object.keys(props.menu)) {
-				lists[list] = list === props.currentList
+				listIsExpandedObj[list] = list === props.currentList
 			}
 		}, { immediate: true })
 
@@ -37,19 +37,19 @@ export default defineComponent({
 			changeVisible()
 		}
 
-		return { visible, changeVisible, lists, changeCurrent }
+		return { visible, changeVisible, listIsExpandedObj, changeCurrent }
 	},
 	render() {
-		const { menu, visible, lists, currentList, currentGroup, changeCurrent } = this
+		const { menu, visible, listIsExpandedObj, currentList, currentGroup, changeCurrent } = this
 		return (
 			<div class='menu' style={`display:${visible ? 'flex' : 'none'}`}>
 				<div class={currentList === 'Random' && currentGroup === 'Random' ? 'list highlight' : 'list'}
 					onClick={() => changeCurrent('Random', 'Random')}>Random</div>
 				{Object.keys(menu).map(list => (
 					<>
-						<div class='list' onClick={() => lists[list] = !lists[list]}>{list}</div>
+						<div class='list' onClick={() => listIsExpandedObj[list] = !listIsExpandedObj[list]}>{list}</div>
 						{
-							lists[list]
+							listIsExpandedObj[list]
 								? (
 									<>
 										{
