@@ -733,6 +733,85 @@
 			"right": "the president of media interference",
 			"meaning": "谴责",
 			"phonogram": "/əˈkjuːz/"
+		},
+		{
+			"left": "raise an",
+			"middle": "accusatory",
+			"right": "question",
+			"meaning": "指责的",
+			"phonogram": "/əˈkjuːzət(ə)ri/"
+		},
+		{
+			"left": "",
+			"middle": "accustom",
+			"right": "himself to a simple life",
+			"meaning": "习惯",
+			"phonogram": "/əˈkʌstəm/"
+		},
+		{
+			"left": "his",
+			"middle": "accustomed",
+			"right": "behaviors",
+			"meaning": "习惯性的",
+			"phonogram": "/əˈkʌstəmd/"
+		},
+		{
+			"left": "an",
+			"middle": "acerbic",
+			"right": "criticism",
+			"meaning": "尖刻的",
+			"phonogram": "/əˈsəːbɪk/"
+		},
+		{
+			"left": "",
+			"middle": "acid",
+			"right": "rains",
+			"meaning": "酸",
+			"phonogram": "/ˈasɪd/"
+		},
+		{
+			"left": "an",
+			"middle": "acid",
+			"right": "humor",
+			"meaning": "尖酸的",
+			"phonogram": "/ˈasɪd/"
+		},
+		{
+			"left": "",
+			"middle": "acknowledge",
+			"right": "his achievement",
+			"meaning": "承认",
+			"phonogram": "/əkˈnɒlɪdʒ/"
+		},
+		{
+			"left": "the",
+			"middle": "acme",
+			"right": "of art",
+			"meaning": "巅峰",
+			"phonogram": "/ˈakmi/"
+		}
+	],
+	"Group12": [
+		{
+			"left": "the",
+			"middle": "acoustic",
+			"right": "of the music hall",
+			"meaning": "声学结构",
+			"phonogram": "/əˈkuːstɪk/"
+		},
+		{
+			"left": "send",
+			"middle": "acoustic",
+			"right": "signals",
+			"meaning": "声音",
+			"phonogram": "/əˈkuːstɪk/"
+		},
+		{
+			"left": "",
+			"middle": "acquaint",
+			"right": "herself with Traffic Rules",
+			"meaning": "使熟悉",
+			"phonogram": "/əˈkweɪnt/"
 		}
 	]
 }

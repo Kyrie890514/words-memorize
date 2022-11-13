@@ -1,23 +1,17 @@
 const group = 'Group11'
 
 const string = `
-set up a business on her own|account||独立|
-|account for|half of health care spending|占了|
-|account for|his mistake|负责|
-be|accountable|to their customers|负责|
-get the |accountant|license|会计师|
-an internationally|accredited|business school|认证的|
-|accretion|of economic interests|增长|
-his wealth|accrues||增加|
-|accumulate|wealth|积累|
-|accuse|the president of media interference|谴责
-
-
-
-
-
-
-
+raise an |accusatory|question|指责的|
+|accustom|himself to a simple life|习惯|
+his|accustomed|behaviors|习惯性的|
+an |acerbic|criticism|尖刻的|
+|acid|rains|酸 |
+an |acid|humor|尖酸的|
+|acknowledge|his achievement|承认|
+the |acme|of art|巅峰|
+the |acoustic|of the music hall|声学结构|
+send|acoustic|signals|声音|
+|acquaint|herself with Traffic Rules|熟悉
 
 `
 
