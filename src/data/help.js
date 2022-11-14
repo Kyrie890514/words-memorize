@@ -1,17 +1,15 @@
 const group = 'Group11'
 
 const string = `
-raise an |accusatory|question|指责的|
-|accustom|himself to a simple life|习惯|
-his|accustomed|behaviors|习惯性的|
-an |acerbic|criticism|尖刻的|
-|acid|rains|酸 |
-an |acid|humor|尖酸的|
-|acknowledge|his achievement|承认|
-the |acme|of art|巅峰|
-the |acoustic|of the music hall|声学结构|
-send|acoustic|signals|声音|
-|acquaint|herself with Traffic Rules|熟悉
+a helpful|acquaintance||熟人|
+her|acquaintance|with Chinese history|熟悉|
+|acquiesce|in her daughter's demands|默许|
+take|acquiescent|attitude towards corruptions|默许的|
+|acquire|a new language|习得|
+the|acquisition|of a paper recycling company|收购|
+|acquisitive|shareholders|贪婪的|
+|acquit| a political prisoner|赦免|
+the|acrid|smell of burning rubber|刺激性
 
 `
 

@@ -809,9 +809,74 @@
 		{
 			"left": "",
 			"middle": "acquaint",
-			"right": "herself with Traffic Rules",
+			"right": "herself with traffic rules",
 			"meaning": "使熟悉",
 			"phonogram": "/əˈkweɪnt/"
+		},
+		{
+			"left": "a helpful",
+			"middle": "acquaintance",
+			"right": "",
+			"meaning": "熟人",
+			"phonogram": "/əˈkweɪnt(ə)ns/"
+		},
+		{
+			"left": "her",
+			"middle": "acquaintance",
+			"right": "with Chinese history",
+			"meaning": "熟悉",
+			"phonogram": "/əˈkweɪnt(ə)ns/"
+		},
+		{
+			"left": "",
+			"middle": "acquiesce",
+			"right": "in her daughter's demands",
+			"meaning": "默许",
+			"phonogram": "/ˌakwɪˈɛs/"
+		},
+		{
+			"left": "take",
+			"middle": "acquiescent",
+			"right": "attitude towards corruptions",
+			"meaning": "默许的",
+			"phonogram": "/akwɪˈɛs(ə)nt/"
+		},
+		{
+			"left": "",
+			"middle": "acquire",
+			"right": "a new language",
+			"meaning": "习得",
+			"phonogram": "/əˈkwʌɪə/"
+		},
+		{
+			"left": "the",
+			"middle": "acquisition",
+			"right": "of a paper recycling company",
+			"meaning": "收购",
+			"phonogram": "/ˌakwɪˈzɪʃ(ə)n/"
+		},
+		{
+			"left": "",
+			"middle": "acquisitive",
+			"right": "shareholders",
+			"meaning": "贪婪的",
+			"phonogram": "/əˈkwɪzɪtɪv/"
+		}
+	],
+	"Group13": [
+		{
+			"left": "",
+			"middle": "acquit",
+			"right": "a political prisoner",
+			"meaning": "赦免",
+			"phonogram": "/əˈkwɪt/"
+		},
+		{
+			"left": "the",
+			"middle": "acrid",
+			"right": "smell of burning rubber",
+			"meaning": "刺激性",
+			"phonogram": "/ˈakrɪd/"
 		}
 	]
 }
