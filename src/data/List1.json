@@ -877,6 +877,150 @@
 			"right": "smell of burning rubber",
 			"meaning": "刺激性",
 			"phonogram": "/ˈakrɪd/"
+		},
+		{
+			"left": "her",
+			"middle": "acrimonious",
+			"right": "objection",
+			"meaning": "尖刻的",
+			"phonogram": "/ˌakrɪˈməʊnɪəs/"
+		},
+		{
+			"left": "",
+			"middle": "activate",
+			"right": "a bank account",
+			"meaning": "激活",
+			"phonogram": "/ˈaktɪveɪt/"
+		},
+		{
+			"left": "an animal rights",
+			"middle": "activist",
+			"right": "",
+			"meaning": "积极分子",
+			"phonogram": "/ˈaktɪvɪst/"
+		},
+		{
+			"left": "reduce",
+			"middle": "acute",
+			"right": "poverty",
+			"meaning": "严重的",
+			"phonogram": "/əˈkjuːt/"
+		},
+		{
+			"left": "his",
+			"middle": "acute",
+			"right": "vision",
+			"meaning": "敏锐的",
+			"phonogram": "/əˈkjuːt/"
+		},
+		{
+			"left": "an",
+			"middle": "acute",
+			"right": "angle",
+			"meaning": "锐",
+			"phonogram": "/əˈkjuːt/"
+		},
+		{
+			"left": "her business",
+			"middle": "acumen",
+			"right": "",
+			"meaning": " 精明",
+			"phonogram": "/ˈakjʊmən,əˈkjuːmən/"
+		},
+		{
+			"left": "",
+			"middle": "adamant",
+			"right": "freedom fighters",
+			"meaning": "坚定不移的",
+			"phonogram": "/ˈadəm(ə)nt/"
+		}
+	],
+	"Group14": [
+		{
+			"left": "",
+			"middle": "adapt",
+			"right": "to the new social order",
+			"meaning": "适应",
+			"phonogram": "/əˈdapt/"
+		},
+		{
+			"left": "",
+			"middle": "adapt",
+			"right": "his novel for the screen",
+			"meaning": "改编",
+			"phonogram": "/əˈdapt/"
+		},
+		{
+			"left": "",
+			"middle": "adaptable",
+			"right": "explorers",
+			"meaning": "适应能力强的",
+			"phonogram": "/əˈdaptəb(ə)l/"
+		},
+		{
+			"left": "a movie",
+			"middle": "addict",
+			"right": "",
+			"meaning": "上瘾者",
+			"phonogram": "/ˈadɪkt/"
+		},
+		{
+			"left": "",
+			"middle": "addictive",
+			"right": "drugs",
+			"meaning": "上瘾的",
+			"phonogram": "/əˈdɪktɪv/"
+		},
+		{
+			"left": "",
+			"middle": "addle",
+			"right": "his mind",
+			"meaning": "使昏乱",
+			"phonogram": "/ˈad(ə)l/"
+		},
+		{
+			"left": "hear the",
+			"middle": "address",
+			"right": "of the president",
+			"meaning": "演说",
+			"phonogram": "/əˈdrɛs/"
+		},
+		{
+			"left": "",
+			"middle": "address",
+			"right": "the network problem",
+			"meaning": "处理",
+			"phonogram": "/əˈdrɛs/"
+		},
+		{
+			"left": "an",
+			"middle": "adept",
+			"right": "guitar player",
+			"meaning": "熟练的",
+			"phonogram": "/əˈdɛpt,ˈadɛpt/"
+		},
+		{
+			"left": "an",
+			"middle": "adequate",
+			"right": "amount of food",
+			"meaning": "充足的",
+			"phonogram": "/ˈadɪkwət/"
+		}
+	],
+	"Group15": [
+		{
+			"left": "",
+			"middle": "adhere",
+			"right": "to road rules",
+			"meaning": "遵守",
+			"phonogram": "/ədˈhɪə/"
+		},
+		{
+			"left": "a roll of",
+			"middle": "adhesive",
+			"right": "tape",
+			"meaning": "胶",
+			"phonogram": "/ədˈhiːsɪv,ədˈhiːzɪv/"
 		}
 	]
 }

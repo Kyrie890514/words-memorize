@@ -1,19 +1,27 @@
-const group = 'Group11'
-
 const string = `
-a helpful|acquaintance||熟人|
-her|acquaintance|with Chinese history|熟悉|
-|acquiesce|in her daughter's demands|默许|
-take|acquiescent|attitude towards corruptions|默许的|
-|acquire|a new language|习得|
-the|acquisition|of a paper recycling company|收购|
-|acquisitive|shareholders|贪婪的|
-|acquit| a political prisoner|赦免|
-the|acrid|smell of burning rubber|刺激性
-
+her|acrimonious|objection|尖刻的|
+|activate|a bank account|激活|
+an animal rights|activist||积极分子|
+reduce|acute|poverty|严重的|
+his|acute|vision|敏锐的|
+an |acute|angle|锐|
+her business|acumen||精明|
+|adamant|freedom fighters|坚定不移的|
+|adapt|to the new social order|适应|
+|adapt| his novel for the screen|改编|
+|adaptable|explorers|适应能力强的|
+a movie | addict||上瘾者|
+|addictive|drugs|上瘾的|
+|addle|his mind|使昏乱|
+hear the|address|of the president|演说|
+|address|the network problem|处理|
+an |adept|guitar player|熟练的|
+an |adequate|amount of food|充足的|
+|adhere|to road rules|遵守|
+a roll of|adhesive|tape|胶
 `
 
-const result = { [group]: [] }
+const result = []
 if (string.indexOf('｜') > 0) {
 	throw new Error('existed ｜')
 }
@@ -31,7 +39,7 @@ string.split('|').map(v => v.trim()).reduce((pre, cur, index) => {
 		case 3:
 			pre.meaning = cur
 			pre.phonogram = '//'
-			result[group].push(pre)
+			result.push(pre)
 			break
 	}
 	return pre
