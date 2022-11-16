@@ -10,15 +10,13 @@ export default defineComponent({
 	name: 'WordsMemorize',
 	setup() {
 		const menu: Menu = {}
-		const words: Record<string, Word> = {}
+		const words: Word[] = []
 		for (const list of Object.keys(lists)) {
 			menu[list] = Object.keys(lists[list])
 			for (const group of Object.keys(lists[list])) {
-				for (const word of lists[list][group])
-					words[word.middle] = word
+				words.push(...lists[list][group])
 			}
 		}
-		const wordKeys = Object.keys(words)
 
 		const currentList = ref('')
 		const currentGroup = ref('')
@@ -33,18 +31,18 @@ export default defineComponent({
 
 		const showWords = ref<Word[]>([])
 		const getRandomWords = () => {
-			const keys = currentList.value === 'Random'
-				? wordKeys
-				: Object.values(lists[currentList.value]).flatMap(words => words.map(word => word.middle))
+			const _words = currentList.value === 'Random'
+				? words
+				: Object.values(lists[currentList.value]).flat()
 
-			const length = keys.length
+			const length = _words.length
 			const numbers = [...Array(length).keys()]
 			let i = length
 			while (i > 0 && length - i < 10) {
 				const index = Math.floor(Math.random() * i--);
 				[numbers[index], numbers[i]] = [numbers[i], numbers[index]]
 			}
-			return Array.from(numbers.slice(i), index => words[keys[index]])
+			return numbers.slice(i).map(index => _words[index])
 		}
 		const changeWords = () => {
 			showWords.value = currentGroup.value === 'Random'
@@ -54,7 +52,7 @@ export default defineComponent({
 		changeWords()
 
 		const search = (value: string) => {
-			showWords.value = wordKeys.filter(wordKey => wordKey.indexOf(value.toLowerCase()) !== -1).map(wordKey => words[wordKey])
+			showWords.value = words.filter(word => word.middle.indexOf(value.toLowerCase()) !== -1)
 		}
 
 		const changeCurrent = (list: string, group: string) => {
