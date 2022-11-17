@@ -52,14 +52,14 @@ export default defineComponent({
 							listIsExpandedObj[list]
 								? (
 									<>
+										<div class={currentList === list && currentGroup === 'Random' ? 'group highlight' : 'group'}
+											onClick={() => changeCurrent(list, 'Random')}>Random</div>
 										{
 											menu[list].map(group => (
 												<div class={currentList === list && currentGroup === group ? 'group highlight' : 'group'}
 													onClick={() => changeCurrent(list, group)}>{group}</div>
 											))
 										}
-										<div class={currentList === list && currentGroup === 'Random' ? 'group highlight' : 'group'}
-											onClick={() => changeCurrent(list, 'Random')}>Random</div>
 									</>
 								)
 								: null
