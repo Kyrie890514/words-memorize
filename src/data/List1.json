@@ -1021,6 +1021,113 @@
 			"right": "tape",
 			"meaning": "胶",
 			"phonogram": "/ədˈhiːsɪv,ədˈhiːzɪv/"
+		},
+		{
+			"left": "",
+			"middle": "adjacent",
+			"right": "countries",
+			"meaning": "邻近的",
+			"phonogram": "/əˈdʒeɪs(ə)nt/"
+		},
+		{
+			"left": "wait in the",
+			"middle": "adjoining",
+			"right": "office",
+			"meaning": "隔壁",
+			"phonogram": "/əˈdʒɔɪnɪŋ/"
+		},
+		{
+			"left": "The court",
+			"middle": "adjourns",
+			"right": "for lunch.",
+			"meaning": "休会",
+			"phonogram": "/əˈdʒəːn/"
+		},
+		{
+			"left": "",
+			"middle": "adjudicate",
+			"right": "on a conflict",
+			"meaning": "裁决",
+			"phonogram": "/əˈdʒuːdɪkeɪt/"
+		},
+		{
+			"left": "an important",
+			"middle": "adjunct",
+			"right": "to drug treatments",
+			"meaning": "辅助",
+			"phonogram": "/ˈadʒʌŋ(k)t/"
+		},
+		{
+			"left": "",
+			"middle": "ad-lib",
+			"right": "on stage",
+			"meaning": "即兴发挥",
+			"phonogram": "/adˈlɪb/"
+		},
+		{
+			"left": "",
+			"middle": "administer",
+			"right": "an office",
+			"meaning": "管理",
+			"phonogram": "/ədˈmɪnɪstə/"
+		},
+		{
+			"left": "watch the nurse",
+			"middle": "administer",
+			"right": "the drugs",
+			"meaning": "开药",
+			"phonogram": "/ədˈmɪnɪstə/"
+		}
+	],
+	"Group16": [
+		{
+			"left": "",
+			"middle": "administrative",
+			"right": "work",
+			"meaning": "管理的",
+			"phonogram": "/ədˈmɪnɪstrətɪv/"
+		},
+		{
+			"left": "a business",
+			"middle": "administrator",
+			"right": "",
+			"meaning": "管理者",
+			"phonogram": "/ədˈmɪnɪstreɪtə/"
+		},
+		{
+			"left": "",
+			"middle": "admire",
+			"right": "his talent",
+			"meaning": "仰慕",
+			"phonogram": "/ədˈmʌɪə/"
+		},
+		{
+			"left": "her",
+			"middle": "admirable",
+			"right": "beauty",
+			"meaning": "令人垂涎的",
+			"phonogram": "/ˈadm(ə)rəb(ə)l/"
+		},
+		{
+			"left": "",
+			"middle": "admit",
+			"right": "a new member",
+			"meaning": "加入",
+			"phonogram": "/ədˈmɪt/"
+		},
+		{
+			"left": "",
+			"middle": "admonish",
+			"right": "a careless driver",
+			"meaning": "告诫",
+			"phonogram": "/ədˈmɒnɪʃ/"
+		},
+		{
+			"left": "a boy's act of",
+			"middle": "adolescent",
+			"right": "rebellion",
+			"meaning": "青春期的",
+			"phonogram": "/adəˈlɛs(ə)nt/"
 		}
 	]
 }
