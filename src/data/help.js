@@ -1,19 +1,28 @@
 const string = `
-|adjacent|countries|邻近的|
-wait in the |adjoining|office|隔壁|
-The court|adjourns|for lunch.|休会|
-|adjudicate |on a conflict|裁决|
-an important |adjunct|to drug treatments|辅助|
-|ad-lib|on stage|即兴发挥|
-|administer|an office|管理|
-watch the nurse|administer|the drugs|开药|
-|administrative|work|管理的|
-a business|administrator| |管理者|
-|admire|his talent|仰慕|
-her|admirable|beauty|令人垂涎的|
-|admit|a new member|加入|
-|admonish|a careless driver|告诫|
-a boy's act of |adolescent|rebellion|青春期的|
+|dispossess|the farmer of his land|霸占|
+a |disproportionate|investment of time|不成比例|
+|disprove|previous theories|推翻|
+solve a |dispute||纠纷|
+|disregard|her feeling|忽视|
+bring the hospital into|disrepute||名声扫地|
+|disrupt|his work |打扰|
+|disruptive|noises|扰人的|
+|dissect|dead animals|解剖|
+|dissect|your work|剖析|
+|dissemble|his real motives|掩饰|
+|disseminate |the messages|传播|
+the passage of resolution without|dissent||异议|
+solve internal|dissension||纠纷|
+clear political |dissidents||异己|
+|dissimulate|his true feeling|掩饰|
+|dissipate|smoke|驱散|
+|dissipate|his time and energy|浪费|
+|dissipated|wealthy youths|沉迷酒色的|
+his |dissolute|night life|放荡的|
+|dissolve|in water|溶解|
+|dissolve|the tension|化解|
+|dissolution|of their marriage|解除|
+|dissolve|the interest group|瓦解
 `
 
 const result = []
