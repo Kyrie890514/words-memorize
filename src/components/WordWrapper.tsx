@@ -38,7 +38,7 @@ export default defineComponent({
 			<div class='word-wrapper'>
 				<div class='top-wrapper'>
 					{!condition.isShowWordOnly && word.left && (
-						<span class='left'>{word.left}&nbsp;</span>
+						<span class='left'>{word.left + ' '}</span>
 					)}
 					{
 						condition.isShowAllAnswer || isShowAnswer
@@ -46,7 +46,7 @@ export default defineComponent({
 							: <span class='answer hidden' onClick={() => changeIsShowAnswer()}>answer</span>
 					}
 					{!condition.isShowWordOnly && word.right && (
-						<span class='right'>&nbsp;{word.right}</span>
+						<span class='right'>{' ' + word.right}</span>
 					)}
 				</div>
 				<div class='bottom-wrapper'>
