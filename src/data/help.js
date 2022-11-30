@@ -1,28 +1,14 @@
 const string = `
-|dispossess|the farmer of his land|霸占|
-a |disproportionate|investment of time|不成比例|
-|disprove|previous theories|推翻|
-solve a |dispute||纠纷|
-|disregard|her feeling|忽视|
-bring the hospital into|disrepute||名声扫地|
-|disrupt|his work |打扰|
-|disruptive|noises|扰人的|
-|dissect|dead animals|解剖|
-|dissect|your work|剖析|
-|dissemble|his real motives|掩饰|
-|disseminate |the messages|传播|
-the passage of resolution without|dissent||异议|
-solve internal|dissension||纠纷|
-clear political |dissidents||异己|
-|dissimulate|his true feeling|掩饰|
-|dissipate|smoke|驱散|
-|dissipate|his time and energy|浪费|
-|dissipated|wealthy youths|沉迷酒色的|
-his |dissolute|night life|放荡的|
-|dissolve|in water|溶解|
-|dissolve|the tension|化解|
-|dissolution|of their marriage|解除|
-|dissolve|the interest group|瓦解
+|dissuade|him from gambling|劝诫|
+in the |distant|future|遥远的|
+her |distant|attitude|冷淡的|
+|distaste|for corruption|厌恶|
+his stomach|distended|with gas|膨胀|
+|distilled|water|蒸馏|
+essential oils |distilled|from natural herbs|提炼|
+|distinct|from others|不同的|
+onion's|distinct |flavor|独特的|
+
 `
 
 const result = []
@@ -48,4 +34,4 @@ string.split('|').map(v => v.trim()).reduce((pre, cur, index) => {
 	}
 	return pre
 }, {})
-console.log(JSON.stringify(result))
+console.log(JSON.stringify(result).slice(1, -1))

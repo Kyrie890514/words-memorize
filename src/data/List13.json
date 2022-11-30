@@ -171,6 +171,71 @@
 			"right": "the interest group",
 			"meaning": "瓦解",
 			"phonogram": "/dɪˈzɒlv/"
+		},
+		{
+			"left": "",
+			"middle": "dissuade",
+			"right": "him from gambling",
+			"meaning": "劝诫",
+			"phonogram": "//"
+		},
+		{
+			"left": "in the",
+			"middle": "distant",
+			"right": "future",
+			"meaning": "遥远的",
+			"phonogram": "//"
+		},
+		{
+			"left": "her",
+			"middle": "distant",
+			"right": "attitude",
+			"meaning": "冷淡的",
+			"phonogram": "//"
+		},
+		{
+			"left": "",
+			"middle": "distaste",
+			"right": "for corruption",
+			"meaning": "厌恶",
+			"phonogram": "//"
+		},
+		{
+			"left": "his stomach",
+			"middle": "distended",
+			"right": "with gas",
+			"meaning": "膨胀",
+			"phonogram": "//"
+		},
+		{
+			"left": "",
+			"middle": "distilled",
+			"right": "water",
+			"meaning": "蒸馏",
+			"phonogram": "//"
+		}
+	],
+	"Group4": [
+		{
+			"left": "essential oils",
+			"middle": "distilled",
+			"right": "from natural herbs",
+			"meaning": "提炼",
+			"phonogram": "//"
+		},
+		{
+			"left": "",
+			"middle": "distinct",
+			"right": "from others",
+			"meaning": "不同的",
+			"phonogram": "//"
+		},
+		{
+			"left": "onion's",
+			"middle": "distinct",
+			"right": "flavor",
+			"meaning": "独特的",
+			"phonogram": "//"
 		}
 	]
 }
