@@ -78,7 +78,7 @@ export default defineComponent({
 					{
 						isSearching
 							? (
-								<div class='title' >
+								<div class='title' style='flex: 1'>
 									<input ref='searchInput' onChange={e => changeSearchText((e.target as HTMLInputElement).value)} />
 								</div>
 							)
@@ -89,13 +89,17 @@ export default defineComponent({
 								</div>
 							)
 					}
+					<div class='operation' style={`display:${isSearching ? 'none' : 'flex'}`}>
+						<span onClick={reload}>{'<'}</span>
+						<span onClick={reload}>R</span>
+						<span onClick={reload}>{'>'}</span>
+					</div>
 					<div class='toggle'>
 						<span class={isSearching && 'is-toggle'} onClick={changeIsSearching}>S</span>
 						<span class={condition.isShowWordOnly && 'is-toggle'} onClick={() => changeCondition('isShowWordOnly')}>W</span>
 						<span class={condition.isShowAllAnswer && 'is-toggle'} onClick={() => changeCondition('isShowAllAnswer')}>A</span>
 						<span class={condition.isShowAllMeaning && 'is-toggle'} onClick={() => changeCondition('isShowAllMeaning')}>M</span>
 						<span class={condition.isShowAllPhonogram && 'is-toggle'} onClick={() => changeCondition('isShowAllPhonogram')}>P</span>
-						<span onClick={reload}>R</span>
 					</div>
 				</div>
 				<Teleport to='#app'>
