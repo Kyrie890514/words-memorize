@@ -85,9 +85,9 @@ export default defineComponent({
 			<div class='header'>
 				<div class='header-wrapper'>
 					<div class='operation' style={`display:${isSearching ? 'none' : 'flex'}`}>
-						{showGoBackAndGoForward && <span onClick={goBack}>🡠</span>}
-						<span onClick={reload} class='reload'>↻</span>
-						{showGoBackAndGoForward && <span onClick={goForward}>🡢</span>}
+						<span onClick={reload}>R</span>
+						{showGoBackAndGoForward && <span onClick={goBack}>B</span>}
+						{showGoBackAndGoForward && <span onClick={goForward}>F</span>}
 					</div>
 					{
 						isSearching
@@ -97,8 +97,9 @@ export default defineComponent({
 								</div>
 							)
 							: (
-								<div class='title'>
-									<span onClick={changeMenuVisible}>{currentList} {currentGroup}</span>
+								<div class='title' onClick={changeMenuVisible}>
+									<span>{currentList}</span>
+									<span>{currentGroup}</span>
 								</div>
 							)
 					}
