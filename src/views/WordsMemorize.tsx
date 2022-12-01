@@ -29,24 +29,41 @@ export default defineComponent({
 		currentList.value = localStorage.currentList || Object.keys(menu)[0]
 		currentGroup.value = localStorage.currentGroup || menu[currentList.value][0]
 
-		const showWords = ref<Word[]>([])
-		const getRandomWords = () => {
-			const _words = currentList.value === 'Random'
-				? words
-				: Object.values(lists[currentList.value]).flat()
-
-			const length = _words.length
-			const numbers = [...Array(length).keys()]
-			let i = length
-			while (i > 0 && length - i < 10) {
-				const index = Math.floor(Math.random() * i--);
-				[numbers[index], numbers[i]] = [numbers[i], numbers[index]]
-			}
-			return numbers.slice(i).map(index => _words[index])
+		let lastRandomInfo = {
+			list: '',
+			group: '',
+			words: [] as Word[],
+			numbers: [] as number[]
 		}
-		const changeWords = () => {
+		const getRandomWords = (isReload = false) => {
+			if (!isReload) {
+				lastRandomInfo = {
+					list: '',
+					group: '',
+					words: [],
+					numbers: []
+				}
+			}
+			if (currentList.value !== lastRandomInfo.list || currentGroup.value !== lastRandomInfo.group) {
+				lastRandomInfo.list = currentList.value
+				lastRandomInfo.group = currentGroup.value
+				lastRandomInfo.words = currentList.value === 'Random'
+					? words
+					: Object.values(lists[currentList.value]).flat()
+				lastRandomInfo.numbers = [...Array(lastRandomInfo.words.length).keys()]
+			}
+			let i = lastRandomInfo.numbers.length
+			while (i > 0 && lastRandomInfo.numbers.length - i < 10) {
+				const index = Math.floor(Math.random() * i--);
+				[lastRandomInfo.numbers[index], lastRandomInfo.numbers[i]] = [lastRandomInfo.numbers[i], lastRandomInfo.numbers[index]]
+			}
+			return lastRandomInfo.numbers.splice(i).map(index => lastRandomInfo.words[index])
+		}
+
+		const showWords = ref<Word[]>([])
+		const changeWords = (isReload = false) => {
 			showWords.value = currentGroup.value === 'Random'
-				? getRandomWords()
+				? getRandomWords(isReload)
 				: lists[currentList.value][currentGroup.value]
 		}
 		changeWords()
@@ -75,7 +92,7 @@ export default defineComponent({
 		const key = ref(0)
 		const _reload = () => { key.value++ }
 		const reload = () => {
-			changeWords()
+			changeWords(true)
 			_reload()
 		}
 
