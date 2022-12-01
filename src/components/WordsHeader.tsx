@@ -1,4 +1,4 @@
-import { defineComponent, nextTick, ref, Teleport, type PropType } from 'vue'
+import { computed, defineComponent, nextTick, ref, Teleport, type PropType } from 'vue'
 import type { Condition, Menu } from '../data/type'
 import WordsMenu from './WordsMenu'
 import '../style/WordsHeader.scss'
@@ -23,7 +23,7 @@ export default defineComponent({
 			required: true
 		}
 	},
-	emits: ['currentChange', 'conditionChange', 'search', 'reload'],
+	emits: ['currentChange', 'conditionChange', 'search', 'reload', 'goBack', 'goForward'],
 	setup(props, { emit }) {
 		const changeCurrent = (list: string, group: string) => {
 			emit('currentChange', list, group)
@@ -59,10 +59,19 @@ export default defineComponent({
 		const reload = () => {
 			emit('reload')
 		}
+
+		const goBack = () => {
+			emit('goBack')
+		}
+		const goForward = () => {
+			emit('goForward')
+		}
+		const showGoBackAndGoForward = computed(() => props.currentList !== 'Random' && props.currentGroup !== 'Random')
+
 		return {
 			changeCurrent, wordsMenu, changeMenuVisible,
 			isSearching, searchInput, changeIsSearching, changeSearchText,
-			changeCondition, reload
+			changeCondition, reload, goBack, goForward, showGoBackAndGoForward
 		}
 	},
 	render() {
@@ -70,7 +79,7 @@ export default defineComponent({
 			currentList, currentGroup, menu, condition,
 			changeCurrent, changeMenuVisible,
 			isSearching, changeIsSearching, changeSearchText,
-			changeCondition, reload
+			changeCondition, reload, goBack, goForward, showGoBackAndGoForward
 		} = this
 		return (
 			<div class='header'>
@@ -90,9 +99,9 @@ export default defineComponent({
 							)
 					}
 					<div class='operation' style={`display:${isSearching ? 'none' : 'flex'}`}>
-						<span onClick={reload}>{'<'}</span>
+						{showGoBackAndGoForward && <span onClick={goBack}>B</span>}
 						<span onClick={reload}>R</span>
-						<span onClick={reload}>{'>'}</span>
+						{showGoBackAndGoForward && <span onClick={goForward}>F</span>}
 					</div>
 					<div class='toggle'>
 						<span class={isSearching && 'is-toggle'} onClick={changeIsSearching}>S</span>

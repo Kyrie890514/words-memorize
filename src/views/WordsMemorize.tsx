@@ -79,20 +79,46 @@ export default defineComponent({
 			_reload()
 		}
 
+		const goBack = () => {
+			const groupArray = menu[currentList.value]
+			const currentGroupIndex = groupArray.indexOf(currentGroup.value)
+			if (currentGroupIndex > 0) {
+				changeCurrent(currentList.value, groupArray[currentGroupIndex - 1])
+			} else {
+				const listArray = Object.keys(menu)
+				const currentListIndex = listArray.indexOf(currentList.value)
+				const list = currentListIndex > 0 ? listArray[currentListIndex - 1] : listArray[listArray.length - 1]
+				changeCurrent(list, menu[list][menu[list].length - 1])
+			}
+		}
+		const goForward = () => {
+			const groupArray = menu[currentList.value]
+			const currentGroupIndex = groupArray.indexOf(currentGroup.value)
+			if (currentGroupIndex < groupArray.length - 1) {
+				changeCurrent(currentList.value, groupArray[currentGroupIndex + 1])
+			} else {
+				const listArray = Object.keys(menu)
+				const currentListIndex = listArray.indexOf(currentList.value)
+				const list = currentListIndex < listArray.length - 1 ? listArray[currentListIndex + 1] : listArray[0]
+				changeCurrent(list, menu[list][0])
+			}
+		}
+
 		return {
 			menu, currentList, currentGroup, changeCurrent, showWords, search,
-			condition, changeCondition, reload, key
+			condition, changeCondition, key, reload, goBack, goForward
 		}
 	},
 	render() {
 		const {
 			menu, currentList, currentGroup, changeCurrent, showWords, search,
-			condition, changeCondition, reload, key
+			condition, changeCondition, key, reload, goBack, goForward
 		} = this
 		return (
 			<div class='words-memorize'>
 				<WordsHeader menu={menu} currentList={currentList} currentGroup={currentGroup} onCurrentChange={changeCurrent}
-					onSearch={search} condition={condition} onConditionChange={changeCondition} onReload={reload} />
+					onSearch={search} condition={condition} onConditionChange={changeCondition} onReload={reload}
+					onGoBack={goBack} onGoForward={goForward} />
 				<WordsWrapper key={key} words={showWords} condition={condition} />
 			</div >
 		)
