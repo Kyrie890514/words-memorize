@@ -97,9 +97,8 @@ export default defineComponent({
 								</div>
 							)
 							: (
-								<div class='title' onClick={changeMenuVisible}>
-									<span>{currentList}</span>
-									<span>{currentGroup}</span>
+								<div class='title'>
+									<span onClick={changeMenuVisible}>{currentList} {currentGroup}</span>
 								</div>
 							)
 					}
