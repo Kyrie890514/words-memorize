@@ -11,7 +11,17 @@
 		justify-content: space-between;
 
 		.operation {
-			width: 55px;
+			width: 68px;
+			font-size: 18px;
+
+			>span {
+				display: flex;
+				align-items: center;
+			}
+
+			>span.reload {
+				align-items: flex-end;
+			}
 
 			>span:nth-child(2) {
 				margin: 0 8px;
@@ -39,6 +49,10 @@
 		}
 
 		.toggle {
+			display: flex;
+			align-items: center;
+			font-size: 18px;
+
 			>span {
 				margin-left: 8px;
 			}
