@@ -40,32 +40,35 @@ export default defineComponent({
 		return { visible, changeVisible, listIsExpandedObj, changeCurrent }
 	},
 	render() {
-		const { menu, visible, listIsExpandedObj, currentList, currentGroup, changeCurrent } = this
+		const { menu, visible, changeVisible, listIsExpandedObj, currentList, currentGroup, changeCurrent } = this
 		return (
-			<div class='menu' style={`display:${visible ? 'flex' : 'none'}`}>
-				<div class={currentList === 'Random' && currentGroup === 'Random' ? 'list highlight' : 'list'}
-					onClick={() => changeCurrent('Random', 'Random')}>Random</div>
-				{Object.keys(menu).map(list => (
-					<>
-						<div class='list' onClick={() => listIsExpandedObj[list] = !listIsExpandedObj[list]}>{list}</div>
-						{
-							listIsExpandedObj[list]
-								? (
-									<>
-										<div class={currentList === list && currentGroup === 'Random' ? 'group highlight' : 'group'}
-											onClick={() => changeCurrent(list, 'Random')}>Random</div>
-										{
-											menu[list].map(group => (
-												<div class={currentList === list && currentGroup === group ? 'group highlight' : 'group'}
-													onClick={() => changeCurrent(list, group)}>{group}</div>
-											))
-										}
-									</>
-								)
-								: null
-						}
-					</>
-				))}
+			<div class='menu-wrapper' style={`display:${visible ? 'flex' : 'none'}`}>
+				<div class='menu' >
+					<div class={currentList === 'Random' && currentGroup === 'Random' ? 'list highlight' : 'list'}
+						onClick={() => changeCurrent('Random', 'Random')}>Random</div>
+					{Object.keys(menu).map(list => (
+						<>
+							<div class='list' onClick={() => listIsExpandedObj[list] = !listIsExpandedObj[list]}>{list}</div>
+							{
+								listIsExpandedObj[list]
+									? (
+										<>
+											<div class={currentList === list && currentGroup === 'Random' ? 'group highlight' : 'group'}
+												onClick={() => changeCurrent(list, 'Random')}>Random</div>
+											{
+												menu[list].map(group => (
+													<div class={currentList === list && currentGroup === group ? 'group highlight' : 'group'}
+														onClick={() => changeCurrent(list, group)}>{group}</div>
+												))
+											}
+										</>
+									)
+									: null
+							}
+						</>
+					))}
+				</div>
+				<div class='background-wrapper' onClick={changeVisible} />
 			</div>
 		)
 	}
