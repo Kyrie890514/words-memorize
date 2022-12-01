@@ -10,8 +10,19 @@
 		flex-flow: row nowrap;
 		justify-content: space-between;
 
+		.operation {
+			width: 55px;
+
+			>span:nth-child(2) {
+				margin: 0 8px;
+			}
+		}
+
 		.title {
+			flex: 1;
+			margin-right: 6px;
 			display: flex;
+			justify-content: flex-end;
 			align-items: center;
 
 			input {
@@ -24,16 +35,6 @@
 
 			>span:nth-child(2) {
 				margin-left: 8px;
-			}
-		}
-
-		.operation {
-			flex: 1;
-			display: flex;
-			justify-content: center;
-
-			>span:nth-child(2) {
-				margin: 0 8px;
 			}
 		}
 

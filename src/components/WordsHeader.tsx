@@ -84,10 +84,15 @@ export default defineComponent({
 		return (
 			<div class='header'>
 				<div class='header-wrapper'>
+					<div class='operation' style={`display:${isSearching ? 'none' : 'flex'}`}>
+						<span onClick={reload}>R</span>
+						{showGoBackAndGoForward && <span onClick={goBack}>B</span>}
+						{showGoBackAndGoForward && <span onClick={goForward}>F</span>}
+					</div>
 					{
 						isSearching
 							? (
-								<div class='title' style='flex: 1'>
+								<div class='title'>
 									<input ref='searchInput' onChange={e => changeSearchText((e.target as HTMLInputElement).value)} />
 								</div>
 							)
@@ -98,11 +103,6 @@ export default defineComponent({
 								</div>
 							)
 					}
-					<div class='operation' style={`display:${isSearching ? 'none' : 'flex'}`}>
-						{showGoBackAndGoForward && <span onClick={goBack}>B</span>}
-						<span onClick={reload}>R</span>
-						{showGoBackAndGoForward && <span onClick={goForward}>F</span>}
-					</div>
 					<div class='toggle'>
 						<span class={isSearching && 'is-toggle'} onClick={changeIsSearching}>S</span>
 						<span class={condition.isShowWordOnly && 'is-toggle'} onClick={() => changeCondition('isShowWordOnly')}>W</span>
