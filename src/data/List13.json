@@ -236,6 +236,136 @@
 			"right": "flavor",
 			"meaning": "独特的",
 			"phonogram": "/dɪˈstɪŋ(k)t/"
+		},
+		{
+			"left": "the",
+			"middle": "distinction",
+			"right": "between art and entertainment",
+			"meaning": "区别",
+			"phonogram": "/dəˈstiNG(k)SH(ə)n/"
+		},
+		{
+			"left": "a musician of",
+			"middle": "distinction",
+			"right": "",
+			"meaning": "杰出",
+			"phonogram": "/dəˈstiNG(k)SH(ə)n/"
+		},
+		{
+			"left": "her",
+			"middle": "distinctive",
+			"right": "voice",
+			"meaning": "独特的",
+			"phonogram": "/dəˈstiNG(k)tiv/"
+		},
+		{
+			"left": "",
+			"middle": "distinguish",
+			"right": "the right from the wrong",
+			"meaning": "辨别",
+			"phonogram": "/dəˈstiNGɡwiSH/"
+		},
+		{
+			"left": "",
+			"middle": "distinguish",
+			"right": "himself by some brilliant action",
+			"meaning": "成名",
+			"phonogram": "/dəˈstiNGɡwiSH/"
+		},
+		{
+			"left": "a",
+			"middle": "distinguished",
+			"right": "cartoonist",
+			"meaning": "著名的",
+			"phonogram": "/dəˈstiNGɡwiSHt/"
+		},
+		{
+			"left": "",
+			"middle": "distort",
+			"right": "reality",
+			"meaning": "歪曲",
+			"phonogram": "/dəˈstôrt/"
+		}
+	],
+	"Group5": [
+		{
+			"left": "",
+			"middle": "distract",
+			"right": "him from study",
+			"meaning": "分心",
+			"phonogram": "/dəˈstrakt/"
+		},
+		{
+			"left": "",
+			"middle": "distractions",
+			"right": "from the show",
+			"meaning": "娱乐",
+			"phonogram": "/dəˈstrakSH(ə)n/"
+		},
+		{
+			"left": "comfort a",
+			"middle": "distraught",
+			"right": "patient",
+			"meaning": "烦躁的",
+			"phonogram": "/dəˈstrôt/"
+		},
+		{
+			"left": "help a student in",
+			"middle": "distress",
+			"right": "",
+			"meaning": "苦恼",
+			"phonogram": "/dəˈstres/"
+		},
+		{
+			"left": "",
+			"middle": "distribute",
+			"right": "free pointed materials",
+			"meaning": "分发",
+			"phonogram": "/dəˈstribyo͞ot/"
+		},
+		{
+			"left": "cause a political",
+			"middle": "disturbance",
+			"right": "",
+			"meaning": "骚乱",
+			"phonogram": "/dəˈstərbəns/"
+		},
+		{
+			"left": "serious",
+			"middle": "emotional",
+			"right": "disturbance",
+			"meaning": "焦虑",
+			"phonogram": "/dəˈstərbəns/"
+		},
+		{
+			"left": "Theory and practice sometimes",
+			"middle": "diverge",
+			"right": "",
+			"meaning": "相悖",
+			"phonogram": " /dəˈvərj,dīˈvərj/"
+		},
+		{
+			"left": "",
+			"middle": "divergence",
+			"right": "of opinion within the team",
+			"meaning": "分歧",
+			"phonogram": "/dəˈvərjəns,dīˈvərjəns/"
+		},
+		{
+			"left": "",
+			"middle": "diverse",
+			"right": "cultures",
+			"meaning": "多样的",
+			"phonogram": "/dəˈvərs,dīˈvərs/"
+		}
+	],
+	"Group6": [
+		{
+			"left": "His interests",
+			"middle": "diversified",
+			"right": "",
+			"meaning": "多样的",
+			"phonogram": "/dəˈvərsəˌfī,dīˈvərsəˌfī/"
 		}
 	]
 }

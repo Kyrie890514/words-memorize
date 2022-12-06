@@ -1,18 +1,8 @@
 // const string = `
-// |dissuade|him from gambling|劝诫|
-// in the |distant|future|遥远的|
-// her |distant|attitude|冷淡的|
-// |distaste|for corruption|厌恶|
-// his stomach|distended|with gas|膨胀|
-// |distilled|water|蒸馏|
-// essential oils |distilled|from natural herbs|提炼|
-// |distinct|from others|不同的|
-// onion's|distinct |flavor|独特的|
 // `
 
 // Frontend
 const string = `
-code that you need to |investigate||调查|
 `
 
 const result = []
