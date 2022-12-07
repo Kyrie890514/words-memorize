@@ -1,15 +1,19 @@
-// const string = `
-// `
-
-// Frontend
 const string = `
 `
 
+// Frontend
+// const string = `
+// `
+
 const result = []
 if (string.indexOf('｜') > 0) {
-	throw new Error('existed ｜')
+	throw new Error('There are some ｜ existed.')
 }
-string.split('|').map(v => v.trim()).reduce((pre, cur, index) => {
+const a = string.split('|')
+if ((a.length - 1) % 4 !== 0) {
+	throw new Error(`The count of '|' is not a multiple of 4.`)
+}
+a.map(v => v.trim()).reduce((pre, cur, index) => {
 	switch (index % 4) {
 		case 0:
 			pre = { left: cur }

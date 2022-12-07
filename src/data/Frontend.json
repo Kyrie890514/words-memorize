@@ -55,6 +55,13 @@
 			"right": "data loss",
 			"meaning": "灾难的",
 			"phonogram": "/.kætә'strɒfik/"
+		},
+		{
+			"left": "in",
+			"middle": "alphabetical",
+			"right": "order",
+			"meaning": "字母的",
+			"phonogram": "/.ælfә'betikәl/"
 		}
 	]
 }

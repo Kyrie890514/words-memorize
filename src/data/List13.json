@@ -319,7 +319,7 @@
 		{
 			"left": "",
 			"middle": "distribute",
-			"right": "free pointed materials",
+			"right": "free printed materials",
 			"meaning": "分发",
 			"phonogram": "/di'stribju:t/"
 		},
@@ -364,8 +364,159 @@
 			"left": "His interests",
 			"middle": "diversified",
 			"right": "",
-			"meaning": "多样的",
+			"meaning": "多样化",
 			"phonogram": "/dai'vә:sifaid/"
+		},
+		{
+			"left": "",
+			"middle": "divert",
+			"right": "his attention",
+			"meaning": "转移",
+			"phonogram": "/dai'vә:t/"
+		},
+		{
+			"left": "",
+			"middle": "divert",
+			"right": "the public fund to their private purpose",
+			"meaning": "挪用",
+			"phonogram": "/dai'vә:t/"
+		},
+		{
+			"left": "",
+			"middle": "divert",
+			"right": "calls",
+			"meaning": "转接",
+			"phonogram": "/dai'vә:t/"
+		},
+		{
+			"left": "",
+			"middle": "diversion",
+			"right": "for holiday",
+			"meaning": "娱乐",
+			"phonogram": "/dai'vә:ʒәn/"
+		},
+		{
+			"left": "a",
+			"middle": "diverting",
+			"right": "game",
+			"meaning": "娱乐的",
+			"phonogram": "/dai'vә:tiŋ/"
+		},
+		{
+			"left": "",
+			"middle": "divest",
+			"right": "himself of all responsibilities",
+			"meaning": "卸下",
+			"phonogram": "/dai'vest/"
+		},
+		{
+			"left": "",
+			"middle": "divine",
+			"right": "gifts",
+			"meaning": "神的",
+			"phonogram": "/di'vain/"
+		},
+		{
+			"left": "",
+			"middle": "divine",
+			"right": "the needs of consumers",
+			"meaning": "推测",
+			"phonogram": "/di'vain/"
+		},
+		{
+			"left": "a",
+			"middle": "divisive",
+			"right": "force against peace",
+			"meaning": "分裂的",
+			"phonogram": "/di'vaisiv/"
+		}
+	],
+	"Group7": [
+		{
+			"left": "",
+			"middle": "divulge",
+			"right": "secrets",
+			"meaning": "泄露",
+			"phonogram": "/di'vʌldʒ/"
+		},
+		{
+			"left": "feel",
+			"middle": "dizzy",
+			"right": "with hunger",
+			"meaning": "晕眩的",
+			"phonogram": "/'dizi/"
+		},
+		{
+			"left": "",
+			"middle": "docile",
+			"right": "children",
+			"meaning": "温顺的",
+			"phonogram": "/'dәusail/"
+		},
+		{
+			"left": "illegally",
+			"middle": "dock",
+			"right": "worker's salaries",
+			"meaning": "克扣",
+			"phonogram": "/dɒk/"
+		},
+		{
+			"left": "a",
+			"middle": "doctrinaire",
+			"right": "teacher",
+			"meaning": "教条主义的",
+			"phonogram": "/.dɒktri'nєә/"
+		},
+		{
+			"left": "a strict",
+			"middle": "doctrine",
+			"right": "",
+			"meaning": "教条",
+			"phonogram": "/'dɒktrin/"
+		},
+		{
+			"left": "",
+			"middle": "document",
+			"right": "stories from life",
+			"meaning": "记录",
+			"phonogram": "/'dɒkjumәnt/"
+		},
+		{
+			"left": "legal ways to",
+			"middle": "dodge",
+			"right": "tax",
+			"meaning": "避开",
+			"phonogram": "/dɒdʒ/"
+		},
+		{
+			"left": "my",
+			"middle": "dogged",
+			"right": "decision",
+			"meaning": "顽强的",
+			"phonogram": "/'dɒgid/"
+		},
+		{
+			"left": "break down",
+			"middle": "dogma",
+			"right": "of centuries",
+			"meaning": "教条",
+			"phonogram": "/'dɒgmә/"
+		}
+	],
+	"Group8": [
+		{
+			"left": "",
+			"middle": "dogmatic",
+			"right": "leaders",
+			"meaning": "固执己见的",
+			"phonogram": "/dɒg'mætik/"
+		},
+		{
+			"left": "days in the",
+			"middle": "doldrums",
+			"right": "",
+			"meaning": "赤道，闷闷无趣的",
+			"phonogram": "/'dɒldrәmz/"
 		}
 	]
 }
