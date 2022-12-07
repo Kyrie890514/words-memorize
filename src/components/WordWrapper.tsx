@@ -52,9 +52,10 @@ export default defineComponent({
 				<div class='bottom-wrapper'>
 					<div class='left-wrapper' onClick={() => changeIsShowPhonogram()}>
 						{
-							condition.isShowAllPhonogram || isShowPhonogram
+							word.phonogram !== '//' &&
+							(condition.isShowAllPhonogram || isShowPhonogram
 								? <span class='phonogram show'>{word.phonogram}</span>
-								: <span class='phonogram hidden'>phonogram</span>
+								: <span class='phonogram hidden'>phonogram</span>)
 						}
 					</div>
 					<div class='right-wrapper' onClick={() => changeIsShowMeaning()}>
