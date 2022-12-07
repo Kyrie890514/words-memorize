@@ -1,0 +1,1 @@
+The dict folder comes from https://github.com/w88975/code-translate-vscode

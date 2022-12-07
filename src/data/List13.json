@@ -331,9 +331,9 @@
 			"phonogram": "/dəˈstərbəns/"
 		},
 		{
-			"left": "serious",
-			"middle": "emotional",
-			"right": "disturbance",
+			"left": "serious emotional",
+			"middle": "disturbance",
+			"right": "",
 			"meaning": "焦虑",
 			"phonogram": "/dəˈstərbəns/"
 		},
