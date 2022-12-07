@@ -72,5 +72,5 @@ for (const word of words) {
 	word.phonogram = query(word.middle)
 }
 
-console.log(JSON.stringify(words))
-console.log(noPhonogramWords)
+console.log(JSON.stringify(words).slice(1, -1))
+noPhonogramWords.length && console.log(noPhonogramWords)
