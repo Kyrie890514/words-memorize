@@ -21,6 +21,9 @@ export default defineComponent({
 		condition: {
 			type: Object as PropType<Condition>,
 			required: true
+		},
+		randomInfo: {
+			type: String,
 		}
 	},
 	emits: ['currentChange', 'conditionChange', 'search', 'reload', 'goBack', 'goForward'],
@@ -77,7 +80,7 @@ export default defineComponent({
 	render() {
 		const {
 			currentList, currentGroup, menu, condition,
-			changeCurrent, changeMenuVisible,
+			changeCurrent, changeMenuVisible, randomInfo,
 			isSearching, changeIsSearching, changeSearchText,
 			changeCondition, reload, goBack, goForward, showGoBackAndGoForward
 		} = this
@@ -86,6 +89,7 @@ export default defineComponent({
 				<div class='header-wrapper'>
 					<div class='operation' style={`display:${isSearching ? 'none' : 'flex'}`}>
 						<span onClick={reload}>R</span>
+						{!showGoBackAndGoForward && <span onClick={reload}>{randomInfo}</span>}
 						{showGoBackAndGoForward && <span onClick={goBack}>B</span>}
 						{showGoBackAndGoForward && <span onClick={goForward}>F</span>}
 					</div>

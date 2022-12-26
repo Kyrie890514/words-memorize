@@ -35,8 +35,9 @@ export default defineComponent({
 			words: [] as Word[],
 			numbers: [] as number[]
 		}
+		const randomInfo = ref('')
 		const getRandomWords = (isReload = false) => {
-			if (!isReload) {
+			if (!isReload || lastRandomInfo.numbers.length === 0) {
 				lastRandomInfo = {
 					list: '',
 					group: '',
@@ -52,6 +53,7 @@ export default defineComponent({
 					: Object.values(lists[currentList.value]).flat()
 				lastRandomInfo.numbers = [...Array(lastRandomInfo.words.length).keys()]
 			}
+			randomInfo.value = `${Math.ceil((lastRandomInfo.words.length - lastRandomInfo.numbers.length) / 10) + 1}/${Math.ceil(lastRandomInfo.words.length / 10)}`
 			let i = lastRandomInfo.numbers.length
 			while (i > 0 && lastRandomInfo.numbers.length - i < 10) {
 				const index = Math.floor(Math.random() * i--);
@@ -122,19 +124,19 @@ export default defineComponent({
 		}
 
 		return {
-			menu, currentList, currentGroup, changeCurrent, showWords, search,
+			menu, currentList, currentGroup, changeCurrent, randomInfo, showWords, search,
 			condition, changeCondition, key, reload, goBack, goForward
 		}
 	},
 	render() {
 		const {
-			menu, currentList, currentGroup, changeCurrent, showWords, search,
+			menu, currentList, currentGroup, changeCurrent, randomInfo, showWords, search,
 			condition, changeCondition, key, reload, goBack, goForward
 		} = this
 		return (
 			<div class='words-memorize'>
 				<WordsHeader menu={menu} currentList={currentList} currentGroup={currentGroup} onCurrentChange={changeCurrent}
-					onSearch={search} condition={condition} onConditionChange={changeCondition} onReload={reload}
+					onSearch={search} condition={condition} onConditionChange={changeCondition} onReload={reload} randomInfo={randomInfo}
 					onGoBack={goBack} onGoForward={goForward} />
 				<WordsWrapper key={key} words={showWords} condition={condition} />
 			</div >
