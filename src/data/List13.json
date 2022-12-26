@@ -517,6 +517,134 @@
 			"right": "",
 			"meaning": "赤道，闷闷无趣的",
 			"phonogram": "/'dɒldrәmz/"
+		},
+		{
+			"left": "",
+			"middle": "dole",
+			"right": "out food",
+			"meaning": "发放",
+			"phonogram": "/dәul/"
+		},
+		{
+			"left": "a",
+			"middle": "doleful",
+			"right": "cry",
+			"meaning": "忧伤的",
+			"phonogram": "/'dәulful/"
+		},
+		{
+			"left": "cross different",
+			"middle": "domains",
+			"right": "",
+			"meaning": "领域",
+			"phonogram": "//"
+		},
+		{
+			"left": "sales in the",
+			"middle": "domestic",
+			"right": "market",
+			"meaning": "国内",
+			"phonogram": "/dәu'mestik/"
+		},
+		{
+			"left": "a",
+			"middle": "domestic",
+			"right": "cat",
+			"meaning": "家庭的",
+			"phonogram": "/dәu'mestik/"
+		},
+		{
+			"left": "",
+			"middle": "domesticate",
+			"right": "horses",
+			"meaning": "驯养",
+			"phonogram": "/dәu'mestikeit/"
+		},
+		{
+			"left": "a",
+			"middle": "dominant",
+			"right": "crop",
+			"meaning": "占优势的",
+			"phonogram": "/'dɒminәnt/"
+		},
+		{
+			"left": "the",
+			"middle": "dominating",
+			"right": "status of Chinese economy",
+			"meaning": "支配的",
+			"phonogram": "/'dɒmineitiŋ/"
+		}
+	],
+	"Group9": [
+		{
+			"left": "a",
+			"middle": "domineering",
+			"right": "king",
+			"meaning": "装横跋扈的",
+			"phonogram": "/,dɔmi'niәriŋ/"
+		},
+		{
+			"left": "",
+			"middle": "donate",
+			"right": "large sums to charity",
+			"meaning": "捐款",
+			"phonogram": "/'dәuneit/"
+		},
+		{
+			"left": "",
+			"middle": "donate",
+			"right": "blood",
+			"meaning": "献血",
+			"phonogram": "/'dәuneit/"
+		},
+		{
+			"left": "organs",
+			"middle": "donors",
+			"right": "",
+			"meaning": "捐赠者",
+			"phonogram": "/ˈdəʊnəz/"
+		},
+		{
+			"left": "warnings of incoming",
+			"middle": "doom",
+			"right": "",
+			"meaning": "厄运",
+			"phonogram": "/du:m/"
+		},
+		{
+			"left": "a",
+			"middle": "dormant",
+			"right": "volcano",
+			"meaning": "休眠的",
+			"phonogram": "/'dɒ:mәnt/"
+		},
+		{
+			"left": "",
+			"middle": "dote",
+			"right": "on their single son",
+			"meaning": "溺爱",
+			"phonogram": "/dәut/"
+		},
+		{
+			"left": "a",
+			"middle": "dour",
+			"right": "expression on her face",
+			"meaning": "严厉的",
+			"phonogram": "/duә/"
+		},
+		{
+			"left": "",
+			"middle": "douse",
+			"right": "the fire",
+			"meaning": "熄灭",
+			"phonogram": "/daus/"
+		},
+		{
+			"left": "her",
+			"middle": "downcast",
+			"right": "eyes",
+			"meaning": "沮丧的",
+			"phonogram": "/'daunkɑ:st/"
 		}
 	]
 }
