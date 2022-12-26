@@ -62,6 +62,29 @@
 			"right": "order",
 			"meaning": "字母的",
 			"phonogram": "/.ælfә'betikәl/"
+		},
+		{
+			"left": "the method is straightforward but",
+			"middle": "cumbersome",
+			"right": "",
+			"meaning": "麻烦的",
+			"phonogram": "/'kʌmbәsәm/"
+		}
+	],
+	"Group2": [
+		{
+			"left": "each",
+			"middle": "daemon",
+			"right": "has its own log file",
+			"meaning": "守护进程",
+			"phonogram": "/'di:mәn/"
+		},
+		{
+			"left": "the",
+			"middle": "objective",
+			"right": "of the game",
+			"meaning": "目的",
+			"phonogram": "/әb'dʒektiv/"
 		}
 	]
 }

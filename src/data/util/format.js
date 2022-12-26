@@ -3,9 +3,6 @@
 
 // Frontend
 const string = `
-| the method is straightforward but |cumbersome|麻烦的|
-each |daemon | has its own log file|守护进程|
-the |objective|of the game|目的|
 `
 
 const result = []
