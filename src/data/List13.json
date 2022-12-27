@@ -537,7 +537,7 @@
 			"middle": "domains",
 			"right": "",
 			"meaning": "领域",
-			"phonogram": "//"
+			"phonogram": "/dәu'mein/"
 		},
 		{
 			"left": "sales in the",
@@ -645,6 +645,101 @@
 			"right": "eyes",
 			"meaning": "沮丧的",
 			"phonogram": "/'daunkɑ:st/"
+		}
+	],
+	"Group10": [
+		{
+			"left": "",
+			"middle": "downplay",
+			"right": "the danger of transgenic food",
+			"meaning": "低估",
+			"phonogram": "/'daunplei/"
+		},
+		{
+			"left": "the rise of",
+			"middle": "downtrodden",
+			"right": "people",
+			"meaning": "被压迫的",
+			"phonogram": "/'dajntrɔd(ә)n/"
+		},
+		{
+			"left": "during in economic",
+			"middle": "downturn",
+			"right": "",
+			"meaning": "衰退时期",
+			"phonogram": "/'dauntә:n/"
+		},
+		{
+			"left": "",
+			"middle": "dowse",
+			"right": "for underground water",
+			"meaning": "勘探",
+			"phonogram": "/dauz/"
+		},
+		{
+			"left": "a",
+			"middle": "drab",
+			"right": "movie",
+			"meaning": "单调的",
+			"phonogram": "/dræb/"
+		},
+		{
+			"left": "",
+			"middle": "draconian",
+			"right": "food safety rules",
+			"meaning": "严格的",
+			"phonogram": "/drә'kәjniәn/"
+		},
+		{
+			"left": "",
+			"middle": "draft",
+			"right": "a contract",
+			"meaning": "起草",
+			"phonogram": "/dræft. drɑ:ft/"
+		},
+		{
+			"left": "a man trying to avoid the",
+			"middle": "draft",
+			"right": "",
+			"meaning": "征兵",
+			"phonogram": "/dræft. drɑ:ft/"
+		},
+		{
+			"left": "",
+			"middle": "drain",
+			"right": "water out of the boat",
+			"meaning": "排出",
+			"phonogram": "/drein/"
+		},
+		{
+			"left": "",
+			"middle": "drain",
+			"right": "all their energy",
+			"meaning": "耗尽",
+			"phonogram": "/drein/"
+		}
+	],
+	"Group11": [
+		{
+			"left": "city's subsurface",
+			"middle": "drainage",
+			"right": "",
+			"meaning": "排水系统",
+			"phonogram": "/'dreinidʒ/"
+		},
+		{
+			"left": "",
+			"middle": "dramatic",
+			"right": "fall of former giant Nokia",
+			"meaning": "突然的",
+			"phonogram": "/drә'mætik/"
+		},
+		{
+			"left": "",
+			"middle": "dramatic",
+			"right": "winning of the World Cup",
+			"meaning": "激动人心的",
+			"phonogram": "/drә'mætik/"
 		}
 	]
 }
