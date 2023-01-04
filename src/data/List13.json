@@ -740,6 +740,157 @@
 			"right": "winning of the World Cup",
 			"meaning": "激动人心的",
 			"phonogram": "/drә'mætik/"
+		},
+		{
+			"left": "",
+			"middle": "dramatize",
+			"right": "her little story",
+			"meaning": "戏剧化",
+			"phonogram": "/'dræmәtaiz/"
+		},
+		{
+			"left": "a",
+			"middle": "drastic",
+			"right": "social change",
+			"meaning": "剧烈的",
+			"phonogram": "/'dræstik/"
+		},
+		{
+			"left": "make up for its",
+			"middle": "drawback",
+			"right": "",
+			"meaning": "缺点",
+			"phonogram": "/'drɒ:bæk/"
+		},
+		{
+			"left": "",
+			"middle": "dread",
+			"right": "the birth would take a long time",
+			"meaning": "害怕",
+			"phonogram": "/dred/"
+		},
+		{
+			"left": "",
+			"middle": "dreadful",
+			"right": "warfare",
+			"meaning": "可怕的",
+			"phonogram": "/'dredful/"
+		},
+		{
+			"left": "",
+			"middle": "dreary",
+			"right": "work of housecleaning",
+			"meaning": "枯燥的",
+			"phonogram": "/'driәri/"
+		},
+		{
+			"left": "The rain",
+			"middle": "drenched",
+			"right": "my clothes.",
+			"meaning": "淋湿",
+			"phonogram": "/drentʃd/"
+		}
+	],
+	"Group12": [
+		{
+			"left": "the",
+			"middle": "drift",
+			"right": "of her conversation",
+			"meaning": "大意",
+			"phonogram": "/drift/"
+		},
+		{
+			"left": "a",
+			"middle": "droll",
+			"right": "magician",
+			"meaning": "有趣的",
+			"phonogram": "/drɒl/"
+		},
+		{
+			"left": "",
+			"middle": "droning",
+			"right": "bees",
+			"meaning": "嗡嗡作响的",
+			"phonogram": "/'drәjniŋ/"
+		},
+		{
+			"left": "",
+			"middle": "drone",
+			"right": "and live off his parents",
+			"meaning": "混日子",
+			"phonogram": "/drәun/"
+		},
+		{
+			"left": "",
+			"middle": "droop",
+			"right": "his head",
+			"meaning": "耷拉",
+			"phonogram": "/dru:p/"
+		},
+		{
+			"left": "survive the",
+			"middle": "drought",
+			"right": "season",
+			"meaning": "旱",
+			"phonogram": "/draut/"
+		},
+		{
+			"left": "the dangers of",
+			"middle": "drowsy",
+			"right": "driving",
+			"meaning": "疲劳",
+			"phonogram": "/'drauzi/"
+		},
+		{
+			"left": "the",
+			"middle": "drudgery",
+			"right": "of much housework",
+			"meaning": "苦差事",
+			"phonogram": "/'drʌdʒәri/"
+		},
+		{
+			"left": "forbid",
+			"middle": "dual",
+			"right": "citizenship",
+			"meaning": "双重",
+			"phonogram": "/'dju:әl/"
+		},
+		{
+			"left": "a man of",
+			"middle": "dubious",
+			"right": "character",
+			"meaning": "不靠谱的",
+			"phonogram": "/'dju:biәs/"
+		}
+	],
+	"Group13": [
+		{
+			"left": "",
+			"middle": "ductile",
+			"right": "metals",
+			"meaning": "有延展性的",
+			"phonogram": "/'dʌktail/"
+		},
+		{
+			"left": "the",
+			"middle": "ductile",
+			"right": "mind of youth",
+			"meaning": "易受影响的",
+			"phonogram": "/'dʌktail/"
+		},
+		{
+			"left": "record the",
+			"middle": "dulcet",
+			"right": "tones",
+			"meaning": "悦耳的",
+			"phonogram": "/'dʌlsit/"
+		},
+		{
+			"left": "a",
+			"middle": "dull",
+			"right": "lecture that puts me to sleep",
+			"meaning": "沉闷的",
+			"phonogram": "/dʌl/"
 		}
 	]
 }
